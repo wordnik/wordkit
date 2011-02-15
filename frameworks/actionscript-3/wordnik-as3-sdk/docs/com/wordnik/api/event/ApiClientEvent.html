@@ -1,0 +1,573 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../../../../style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../../../../print.css" type="text/css" media="print">
+<meta content="ApiClientEvent,com.wordnik.api.event.ApiClientEvent,ADD_WORDS_RESPONSE_EVENT,API_USAGE_RESPONSE_EVENT,AUTHENTICATION_RESPONSE_EVENT,AUTO_COMPLETE_RESPONSE_EVENT,BATCH_EXECUTE_RESPONSE_EVENT,CREATE_LIST_RESPONSE_EVENT,DEFINITIONS_RESPONSE_EVENT,DELETE_LIST_REPOSNSE_EVENT,DELETE_WORDS_RESPONSE_EVENT,EXAMPLES_RESPONSE_EVENT,FAILURE_EVENT,FREQUENCY_INFO_RESPONSE_EVENT,GET_LIST_WORDS_RESPONSE_EVENT,GET_USER_LISTS_RESPONSE_EVENT,INVALID_AUTO_COMPLETE_REQUEST,INVALID_RANDOM_WORDS_REQUEST,INVALID_SEARCH_REQUEST,INVALID_WORD_REQUEST,PHRASES_RESPONSE_EVENT,PRONS_RESPONSE_EVENT,PUNCTUATION_FACTOR_RESPONSE_EVENT,RANDOM_WORDS_RESPONSE_EVENT,RANDOM_WORD_RESPONSE_EVENT,RELATED_WORDS_RESPONSE_EVENT,SEARCH_RESPONSE_EVENT,SUCCESS_EVENT,SUGGESTIONS_RESPONSE_EVENT,WORD_LOOK_UP_COMPLETE_EVENT,WORD_OF_DAY_RESPONSE_EVENT,message,response,wordString" name="keywords">
+<title>com.wordnik.api.event.ApiClientEvent</title>
+</head>
+<body>
+<script type="text/javascript" language="javascript" src="../../../../asdoc.js"></script><script type="text/javascript" language="javascript" src="../../../../cookies.js"></script><script type="text/javascript" language="javascript">
+<!--
+				asdocTitle = 'ApiClientEvent - Wordnik AS3 SDK API Documentation';
+				var baseRef = '../../../../';
+				window.onload = configPage;
+			--></script>
+<table style="display:none" id="titleTable" cellspacing="0" cellpadding="0" class="titleTable">
+<tr>
+<td align="left" class="titleTableTitle">Wordnik AS3 SDK API Documentation</td><td align="right" class="titleTableTopNav"><a onclick="loadClassListFrame('../../../../all-classes.html')" href="../../../../package-summary.html">All&nbsp;Packages</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../../all-classes.html')" href="../../../../class-summary.html">All&nbsp;Classes</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../../index-list.html')" href="../../../../all-index-A.html">Index</a>&nbsp;|&nbsp;<a href="../../../../index.html?com/wordnik/api/event/ApiClientEvent.html&amp;com/wordnik/api/event/class-list.html" id="framesLink1">Frames</a><a onclick="parent.location=document.location" href="" style="display:none" id="noFramesLink1">No&nbsp;Frames</a></td><td rowspan="3" align="right" class="titleTableLogo"><img alt="Adobe Logo" title="Adobe Logo" class="logoImage" src="../../../../images/logo.jpg"></td>
+</tr>
+<tr class="titleTableRow2">
+<td align="left" id="subTitle" class="titleTableSubTitle">Class&nbsp;ApiClientEvent</td><td align="right" id="subNav" class="titleTableSubNav"><a href="#propertySummary">Properties</a>&nbsp;| <a href="#methodSummary">Methods</a>&nbsp;| <a href="#constantSummary">Constants</a></td>
+</tr>
+<tr class="titleTableRow3">
+<td colspan="2">&nbsp;</td>
+</tr>
+</table>
+<script type="text/javascript" language="javascript">
+<!--
+if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("Class ApiClientEvent"); titleBar_setSubNav(true,true,false,false,false,false,true,false,false,false,false,false,false,false);}
+--></script>
+<div class="MainContent">
+<table cellspacing="0" cellpadding="0" class="classHeaderTable">
+<tr>
+<td class="classHeaderTableLabel">Package</td><td><a onclick="javascript:loadClassListFrame('class-list.html')" href="package-detail.html">com.wordnik.api.event</a></td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Class</td><td class="classSignature">public class ApiClientEvent</td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Inheritance</td><td class="inheritanceList">ApiClientEvent <img class="inheritArrow" alt="Inheritance" title="Inheritance" src="../../../../images/inherit-arrow.gif"> flash.events.Event</td>
+</tr>
+</table>
+<p></p>
+ Event dispatched by the SDK to communicate success events and failure events.
+ If a custom dispatcher has been assigned by the consumer on the WordnikClient then the dispatcher dispatches
+ the ApiClientEvent to indicate success or failure of the invocation using the Response
+ <p></p>
+<br>
+<hr>
+</div>
+<a name="propertySummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Properties</div>
+<table id="summaryTableProperty" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Property</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#message">message</a> : String<div class="summaryTableDescription">
+     Any additional info
+     </div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#response">response</a> : <a href="../event/Response.html">Response</a>
+<div class="summaryTableDescription">
+     The Response object which contains response info
+     </div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#wordString">wordString</a> : String<div class="summaryTableDescription"></div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+</table>
+</div>
+<a name="methodSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Methods</div>
+<table id="summaryTableMethod" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#ApiClientEvent()">ApiClientEvent</a>(type:String, bubbles:Boolean = false, cancelable:Boolean = false)</div>
+<div class="summaryTableDescription"></div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+</table>
+</div>
+<a name="constantSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Constants</div>
+<table id="summaryTableConstant" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Constant</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#ADD_WORDS_RESPONSE_EVENT">ADD_WORDS_RESPONSE_EVENT</a> : String = "addWordsResponseEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#API_USAGE_RESPONSE_EVENT">API_USAGE_RESPONSE_EVENT</a> : String = "apiUsageResponseEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#AUTHENTICATION_RESPONSE_EVENT">AUTHENTICATION_RESPONSE_EVENT</a> : String = "authenticationResponseEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#AUTO_COMPLETE_RESPONSE_EVENT">AUTO_COMPLETE_RESPONSE_EVENT</a> : String = "autoCompleteResponseEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#BATCH_EXECUTE_RESPONSE_EVENT">BATCH_EXECUTE_RESPONSE_EVENT</a> : String = "batchExecuteResponseEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#CREATE_LIST_RESPONSE_EVENT">CREATE_LIST_RESPONSE_EVENT</a> : String = "createListReponseEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#DEFINITIONS_RESPONSE_EVENT">DEFINITIONS_RESPONSE_EVENT</a> : String = "definitionsResponseEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#DELETE_LIST_REPOSNSE_EVENT">DELETE_LIST_REPOSNSE_EVENT</a> : String = "deleteListResponseEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#DELETE_WORDS_RESPONSE_EVENT">DELETE_WORDS_RESPONSE_EVENT</a> : String = "deleteWordsResponseEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#EXAMPLES_RESPONSE_EVENT">EXAMPLES_RESPONSE_EVENT</a> : String = "examplesResponseEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#FAILURE_EVENT">FAILURE_EVENT</a> : String = "unsuccesfulInvocation"<div class="summaryTableDescription">[static]
+     Event type to indicate a unsuccessful invocation
+     </div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#FREQUENCY_INFO_RESPONSE_EVENT">FREQUENCY_INFO_RESPONSE_EVENT</a> : String = "frequencyInfoResponseEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#GET_LIST_WORDS_RESPONSE_EVENT">GET_LIST_WORDS_RESPONSE_EVENT</a> : String = "getListWordsResponseEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#GET_USER_LISTS_RESPONSE_EVENT">GET_USER_LISTS_RESPONSE_EVENT</a> : String = "getUserListsResponseEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#INVALID_AUTO_COMPLETE_REQUEST">INVALID_AUTO_COMPLETE_REQUEST</a> : String = "invalidAutoCompleteRequest"<div class="summaryTableDescription">[static]
+     Event type to indicate a invalid auto complete request
+     </div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#INVALID_RANDOM_WORDS_REQUEST">INVALID_RANDOM_WORDS_REQUEST</a> : String = "invalidRandomWordsRequest"<div class="summaryTableDescription">[static]
+     Event type to indicate a invalid random words request
+     </div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#INVALID_SEARCH_REQUEST">INVALID_SEARCH_REQUEST</a> : String = "invalidSearchRequest"<div class="summaryTableDescription">[static]
+     Event type to indicate a invalid search request
+     </div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#INVALID_WORD_REQUEST">INVALID_WORD_REQUEST</a> : String = "invalidWordRequest"<div class="summaryTableDescription">[static]
+     Event type to indicate a invalid word request
+     </div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#PHRASES_RESPONSE_EVENT">PHRASES_RESPONSE_EVENT</a> : String = "phrasesResponseEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#PRONS_RESPONSE_EVENT">PRONS_RESPONSE_EVENT</a> : String = "pronsReponseEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#PUNCTUATION_FACTOR_RESPONSE_EVENT">PUNCTUATION_FACTOR_RESPONSE_EVENT</a> : String = "punctuationFactorResponseEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#RANDOM_WORD_RESPONSE_EVENT">RANDOM_WORD_RESPONSE_EVENT</a> : String = "randomWordResponseEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#RANDOM_WORDS_RESPONSE_EVENT">RANDOM_WORDS_RESPONSE_EVENT</a> : String = "randomWordsResponseEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#RELATED_WORDS_RESPONSE_EVENT">RELATED_WORDS_RESPONSE_EVENT</a> : String = "relatedWordsResponseEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#SEARCH_RESPONSE_EVENT">SEARCH_RESPONSE_EVENT</a> : String = "searchResultEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#SUCCESS_EVENT">SUCCESS_EVENT</a> : String = "successfulInvocation"<div class="summaryTableDescription">[static]
+     Event type to indicate a successful invocation
+     </div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#SUGGESTIONS_RESPONSE_EVENT">SUGGESTIONS_RESPONSE_EVENT</a> : String = "suggestionsResponseEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#WORD_LOOK_UP_COMPLETE_EVENT">WORD_LOOK_UP_COMPLETE_EVENT</a> : String = "wordLookupSuccessEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#WORD_OF_DAY_RESPONSE_EVENT">WORD_OF_DAY_RESPONSE_EVENT</a> : String = "wotdResponseEvent"<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ApiClientEvent</td>
+</tr>
+</table>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+showHideInherited();
+--></script>
+<div class="MainContent">
+<a name="propertyDetail"></a>
+<div class="detailSectionHeader">Property detail</div>
+<a name="message"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">message</td><td class="detailHeaderType">property</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var message:String</code><p>
+     Any additional info
+     </p></div>
+<a name="response"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">response</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var response:<a href="../event/Response.html">Response</a></code><p>
+     The Response object which contains response info
+     </p></div>
+<a name="wordString"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">wordString</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public var wordString:String</code>
+</div>
+<a name="constructorDetail"></a>
+<div class="detailSectionHeader">Constructor detail</div>
+<a name="ApiClientEvent()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">ApiClientEvent</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">constructor</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function ApiClientEvent(type:String, bubbles:Boolean = false, cancelable:Boolean = false)</code><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">type</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">bubbles</span>:Boolean</code> (default = <code>false</code>)<code></code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">cancelable</span>:Boolean</code> (default = <code>false</code>)<code></code></td>
+</tr>
+</table>
+</div>
+<a name="constantDetail"></a>
+<div class="detailSectionHeader">Constant detail</div>
+<a name="ADD_WORDS_RESPONSE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">ADD_WORDS_RESPONSE_EVENT</td><td class="detailHeaderType">constant</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const ADD_WORDS_RESPONSE_EVENT:String = "addWordsResponseEvent"</code>
+</div>
+<a name="API_USAGE_RESPONSE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">API_USAGE_RESPONSE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const API_USAGE_RESPONSE_EVENT:String = "apiUsageResponseEvent"</code>
+</div>
+<a name="AUTHENTICATION_RESPONSE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">AUTHENTICATION_RESPONSE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const AUTHENTICATION_RESPONSE_EVENT:String = "authenticationResponseEvent"</code>
+</div>
+<a name="AUTO_COMPLETE_RESPONSE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">AUTO_COMPLETE_RESPONSE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const AUTO_COMPLETE_RESPONSE_EVENT:String = "autoCompleteResponseEvent"</code>
+</div>
+<a name="BATCH_EXECUTE_RESPONSE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">BATCH_EXECUTE_RESPONSE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const BATCH_EXECUTE_RESPONSE_EVENT:String = "batchExecuteResponseEvent"</code>
+</div>
+<a name="CREATE_LIST_RESPONSE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">CREATE_LIST_RESPONSE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const CREATE_LIST_RESPONSE_EVENT:String = "createListReponseEvent"</code>
+</div>
+<a name="DEFINITIONS_RESPONSE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">DEFINITIONS_RESPONSE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const DEFINITIONS_RESPONSE_EVENT:String = "definitionsResponseEvent"</code>
+</div>
+<a name="DELETE_LIST_REPOSNSE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">DELETE_LIST_REPOSNSE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const DELETE_LIST_REPOSNSE_EVENT:String = "deleteListResponseEvent"</code>
+</div>
+<a name="DELETE_WORDS_RESPONSE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">DELETE_WORDS_RESPONSE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const DELETE_WORDS_RESPONSE_EVENT:String = "deleteWordsResponseEvent"</code>
+</div>
+<a name="EXAMPLES_RESPONSE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">EXAMPLES_RESPONSE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const EXAMPLES_RESPONSE_EVENT:String = "examplesResponseEvent"</code>
+</div>
+<a name="FAILURE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">FAILURE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const FAILURE_EVENT:String = "unsuccesfulInvocation"</code><p>
+     Event type to indicate a unsuccessful invocation
+     </p></div>
+<a name="FREQUENCY_INFO_RESPONSE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">FREQUENCY_INFO_RESPONSE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const FREQUENCY_INFO_RESPONSE_EVENT:String = "frequencyInfoResponseEvent"</code>
+</div>
+<a name="GET_LIST_WORDS_RESPONSE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">GET_LIST_WORDS_RESPONSE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const GET_LIST_WORDS_RESPONSE_EVENT:String = "getListWordsResponseEvent"</code>
+</div>
+<a name="GET_USER_LISTS_RESPONSE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">GET_USER_LISTS_RESPONSE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const GET_USER_LISTS_RESPONSE_EVENT:String = "getUserListsResponseEvent"</code>
+</div>
+<a name="INVALID_AUTO_COMPLETE_REQUEST"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">INVALID_AUTO_COMPLETE_REQUEST</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const INVALID_AUTO_COMPLETE_REQUEST:String = "invalidAutoCompleteRequest"</code><p>
+     Event type to indicate a invalid auto complete request
+     </p></div>
+<a name="INVALID_RANDOM_WORDS_REQUEST"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">INVALID_RANDOM_WORDS_REQUEST</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const INVALID_RANDOM_WORDS_REQUEST:String = "invalidRandomWordsRequest"</code><p>
+     Event type to indicate a invalid random words request
+     </p></div>
+<a name="INVALID_SEARCH_REQUEST"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">INVALID_SEARCH_REQUEST</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const INVALID_SEARCH_REQUEST:String = "invalidSearchRequest"</code><p>
+     Event type to indicate a invalid search request
+     </p></div>
+<a name="INVALID_WORD_REQUEST"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">INVALID_WORD_REQUEST</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const INVALID_WORD_REQUEST:String = "invalidWordRequest"</code><p>
+     Event type to indicate a invalid word request
+     </p></div>
+<a name="PHRASES_RESPONSE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">PHRASES_RESPONSE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const PHRASES_RESPONSE_EVENT:String = "phrasesResponseEvent"</code>
+</div>
+<a name="PRONS_RESPONSE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">PRONS_RESPONSE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const PRONS_RESPONSE_EVENT:String = "pronsReponseEvent"</code>
+</div>
+<a name="PUNCTUATION_FACTOR_RESPONSE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">PUNCTUATION_FACTOR_RESPONSE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const PUNCTUATION_FACTOR_RESPONSE_EVENT:String = "punctuationFactorResponseEvent"</code>
+</div>
+<a name="RANDOM_WORD_RESPONSE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">RANDOM_WORD_RESPONSE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const RANDOM_WORD_RESPONSE_EVENT:String = "randomWordResponseEvent"</code>
+</div>
+<a name="RANDOM_WORDS_RESPONSE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">RANDOM_WORDS_RESPONSE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const RANDOM_WORDS_RESPONSE_EVENT:String = "randomWordsResponseEvent"</code>
+</div>
+<a name="RELATED_WORDS_RESPONSE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">RELATED_WORDS_RESPONSE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const RELATED_WORDS_RESPONSE_EVENT:String = "relatedWordsResponseEvent"</code>
+</div>
+<a name="SEARCH_RESPONSE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">SEARCH_RESPONSE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const SEARCH_RESPONSE_EVENT:String = "searchResultEvent"</code>
+</div>
+<a name="SUCCESS_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">SUCCESS_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const SUCCESS_EVENT:String = "successfulInvocation"</code><p>
+     Event type to indicate a successful invocation
+     </p></div>
+<a name="SUGGESTIONS_RESPONSE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">SUGGESTIONS_RESPONSE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const SUGGESTIONS_RESPONSE_EVENT:String = "suggestionsResponseEvent"</code>
+</div>
+<a name="WORD_LOOK_UP_COMPLETE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">WORD_LOOK_UP_COMPLETE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const WORD_LOOK_UP_COMPLETE_EVENT:String = "wordLookupSuccessEvent"</code>
+</div>
+<a name="WORD_OF_DAY_RESPONSE_EVENT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">WORD_OF_DAY_RESPONSE_EVENT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const WORD_OF_DAY_RESPONSE_EVENT:String = "wotdResponseEvent"</code>
+</div>
+<br>
+<br>
+<hr>
+<br>
+<p></p>
+<center class="copyright">Copyright Wordnik</center>
+</div>
+</body>
+</html>
+<!--Copyright Wordnik-->

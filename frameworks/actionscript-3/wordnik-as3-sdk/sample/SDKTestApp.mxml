@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:flexui="flexunit.flexui.*" creationComplete="handleCreationComplete();">
+    <mx:Script>
+        <![CDATA[
+			import client.WordnikApiClientTest;
+			import client.WordnikListTests;
+			
+			import flexunit.framework.TestSuite;
+			
+			public static const apiHostName:String = "api.wordnik.com";
+			//set to true to use a proxy server deployed at the api host; currently only at beta
+            public static const useApiProxyServer: Boolean = true;
+
+            private function createTestSuite():TestSuite
+            {
+                var testSuite:TestSuite = new TestSuite();
+                testSuite.addTestSuite(WordnikApiClientTest);
+				testSuite.addTestSuite(WordnikListTests);				
+                return testSuite;
+            }
+
+            private function handleCreationComplete():void
+            {
+                testRunner.test = createTestSuite();
+                testRunner.startTest();
+            }
+            
+        ]]>
+    </mx:Script>
+    <flexui:TestRunnerBase id="testRunner" width="100%" height="100%"/>
+</mx:Application>
