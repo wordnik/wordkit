@@ -1,0 +1,4166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+  <Token>
+    <TokenIdentifier>
+      <Name>error_handling</Name>
+      <APILanguage>c</APILanguage>
+    </TokenIdentifier>
+    <Path>error_handling.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>classes_client</Name>
+      <APILanguage>c</APILanguage>
+    </TokenIdentifier>
+    <Path>group__classes__client.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>classes_datasource</Name>
+      <APILanguage>c</APILanguage>
+    </TokenIdentifier>
+    <Path>group__classes__datasource.html</Path>
+    <Abstract>Provides a generic API for asynchronous loading of word data from arbitrary sources.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>classes</Name>
+      <APILanguage>c</APILanguage>
+    </TokenIdentifier>
+    <Path>group__classes.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>classes_data</Name>
+      <APILanguage>c</APILanguage>
+    </TokenIdentifier>
+    <Path>group__classes__data.html</Path>
+    <Abstract>Wordnik data classes.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>constants</Name>
+      <APILanguage>c</APILanguage>
+    </TokenIdentifier>
+    <Path>group__constants.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNUnlimitedResultLength</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>group__constants.html</Path>
+    <Anchor>ga33352837fa002fb62e32f99041d37dae</Anchor>
+    <Abstract>Unlimited result length.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>kWNReachabilityChangedNotification</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>group__constants.html</Path>
+    <Anchor>gade00e19d6db8e63017cac3fb5af7025c</Anchor>
+    <Abstract>Notification name for reachability changed notification.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>enums</Name>
+      <APILanguage>c</APILanguage>
+    </TokenIdentifier>
+    <Path>group__enums.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNClientAuthStateLoggedOut</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>group__enums.html</Path>
+    <Anchor>ggae077c4ae13d1d04138e0e4a67d06675fa797b5cf88701fed4fb7a7ac5264b1fdf</Anchor>
+    <Abstract>The client is not logged in.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNClientAuthStateLoggingIn</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>group__enums.html</Path>
+    <Anchor>ggae077c4ae13d1d04138e0e4a67d06675fa08c178b4da0ed6abe81cb22b3cd56090</Anchor>
+    <Abstract>The client is in the process of logging in.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNClientAuthStateLoggedIn</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>group__enums.html</Path>
+    <Anchor>ggae077c4ae13d1d04138e0e4a67d06675fa530d48ba6add03aec43601b6f183f7d0</Anchor>
+    <Abstract>The client has successfully logged in.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNUseOnlineWhenReachablePolicy</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>group__enums.html</Path>
+    <Anchor>ggaf832223721f76298854bdcbac97a6958a9c004cad6078b82d56f6347148106dd6</Anchor>
+    <Abstract>Use the online data sources if they are reachable.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNUseOnlineOnlyPolicy</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>group__enums.html</Path>
+    <Anchor>ggaf832223721f76298854bdcbac97a6958aee44dbc9ee7d37a94e6a3af03881c93c</Anchor>
+    <Abstract>Use the online data sources only, do not use offline data source.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNUseOfflinePreferredPolicy</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>group__enums.html</Path>
+    <Anchor>ggaf832223721f76298854bdcbac97a6958adb64cf674793ffc6a589c1494963a326</Anchor>
+    <Abstract>Use the offline data sources first, if the word is not present, then go online if reachable...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNUseDefaultPolicy</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>group__enums.html</Path>
+    <Anchor>ggaf832223721f76298854bdcbac97a6958aa8fbb79d376ceba4cd74c53be64286fe</Anchor>
+    <Abstract>Default policy is WNUseOnlineWhenReachablePolicy.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNErrorCodeUnknown</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>group__enums.html</Path>
+    <Anchor>gga49bca6f47bc6174ef45ed1342cb78df9a135babd188f09706ffe88601d58c2198</Anchor>
+    <Abstract>An unknown error occured.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNErrorCodeConnectionFailed</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>group__enums.html</Path>
+    <Anchor>gga49bca6f47bc6174ef45ed1342cb78df9a96e3eadcba64efb8499c5a42235d036b</Anchor>
+    <Abstract>The request failed due to a network, server, or other communications error.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNErrorCodeInvalidResponse</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>group__enums.html</Path>
+    <Anchor>gga49bca6f47bc6174ef45ed1342cb78df9adb6590b3351d3fdc6e7909fb522da6e9</Anchor>
+    <Abstract>The request failed due to an invalid response received from the server.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNErrorCodeRequestConflict</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>group__enums.html</Path>
+    <Anchor>gga49bca6f47bc6174ef45ed1342cb78df9a8feae80c6ff4bc2f62152a3ee26f562b</Anchor>
+    <Abstract>The request failed due to a conflict with an existing request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNErrorCodeAuthenticatedFailed</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>group__enums.html</Path>
+    <Anchor>gga49bca6f47bc6174ef45ed1342cb78df9a46bca85e8603448fccb16836854594fd</Anchor>
+    <Abstract>Authentication to the remote server or resource failed.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNErrorCodeRequestGeneralError</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>group__enums.html</Path>
+    <Anchor>gga49bca6f47bc6174ef45ed1342cb78df9a560f9f961f528e270d6b70535120af53</Anchor>
+    <Abstract>The server returned an error result for the request, but a more specific error code is unavailable...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNErrorCodeDatabaseQueryFailed</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>group__enums.html</Path>
+    <Anchor>gga49bca6f47bc6174ef45ed1342cb78df9a586f1c1f955fac2f8bb19373b9afcbab</Anchor>
+    <Abstract>The request failed due to a database query failure.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNErrorCodeNoDataSourcesAvailable</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>group__enums.html</Path>
+    <Anchor>gga49bca6f47bc6174ef45ed1342cb78df9ae08222b580495e9704db7d187fa8d64e</Anchor>
+    <Abstract>The request failed due to no available data sources.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNNotReachable</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>group__enums.html</Path>
+    <Anchor>gga1e994e5267ea887e11778e203e4ca3f0a14ad665c3104b28f0ce506c4fb8433c0</Anchor>
+    <Abstract>Host/network is not reachable.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNReachableViaWiFi</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>group__enums.html</Path>
+    <Anchor>gga1e994e5267ea887e11778e203e4ca3f0a2b4b3e043f86c5df3925fb9a8d574793</Anchor>
+    <Abstract>Host/network is reachable via WiFi (or hardwire)</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNReachableViaWWAN</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>group__enums.html</Path>
+    <Anchor>gga1e994e5267ea887e11778e203e4ca3f0acc18d65b06282fb2033d5aecc64bf96b</Anchor>
+    <Abstract>Host/network is reachable via WWAN.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNWordListAccessTypePublic</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>group__enums.html</Path>
+    <Anchor>ggad6917687c92dd1fb2a4b7addebee05c1a1a3d93985695b94ba1695e3cce8e127d</Anchor>
+    <Abstract>A public word list.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNWordListAccessTypePrivate</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>group__enums.html</Path>
+    <Anchor>ggad6917687c92dd1fb2a4b7addebee05c1a6b36e5cff37986762e659f701451b039</Anchor>
+    <Abstract>A private word list.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>globals</Name>
+      <APILanguage>c</APILanguage>
+    </TokenIdentifier>
+    <Path>group__globals.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNErrorServerMessageKey</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>group__globals.html</Path>
+    <Anchor>ga9bde0fa3e1589ae1846b5baf975b13d7</Anchor>
+    <Abstract>A key that may be used to retrieve an optional, non-localized server-provided error message from an e...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNErrorDomain</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>group__globals.html</Path>
+    <Anchor>ga36332efaa730f547ea8facbad03f2921</Anchor>
+    <Abstract>Wordnik NSError Domain.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNAutocompleteWordCollationAlphabetical</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>group__globals.html</Path>
+    <Anchor>gga9ed66b6925b0841e36dc567de9f68fe9a16050d9ed5766ddc0940c1afe0ea7fd8</Anchor>
+    <Abstract>Order the results alphabetically.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNAutocompleteWordCollationFrequencyDescending</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>group__globals.html</Path>
+    <Anchor>gga9ed66b6925b0841e36dc567de9f68fe9ab2f1aebbb3c4b28a3a6befd54ceccd65</Anchor>
+    <Abstract>Order the results by frequency descending -- that is, highest frequency results will be listed first...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>exceptions</Name>
+      <APILanguage>c</APILanguage>
+    </TokenIdentifier>
+    <Path>group__exceptions.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>classes_ios</Name>
+      <APILanguage>c</APILanguage>
+    </TokenIdentifier>
+    <Path>group__classes__ios.html</Path>
+    <Abstract>Wordnik user interface components for iOS.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNAudioFileMetadata</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_audio_file_metadata.html</Path>
+    <Abstract>Returns metadata for audio files in the Wordnik API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithId:createdBy:fileUrl:description:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_audio_file_metadata.html</Path>
+    <Anchor>aae6326fc418a1ba78cdeabc81d5b784d</Anchor>
+    <Abstract>Initialize a new Audio File Metadata instance.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>audioFileMetadataWithId:createdBy:fileUrl:description:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_audio_file_metadata.html</Path>
+    <Anchor>ac6635e5c5767fbca8b9b39eee462cebc</Anchor>
+    <Abstract>Create and initialize a new Audio File Metadata instance.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNAudioFileMetadataRequest</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_audio_file_metadata_request.html</Path>
+    <Abstract>A word audio file metadata request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>init</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_audio_file_metadata_request.html</Path>
+    <Anchor>ab29cd8b567c8adb8c2b0946498dbb462</Anchor>
+    <Abstract>Initialize a new audio file metadata request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>request</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_audio_file_metadata_request.html</Path>
+    <Anchor>ad5f7b07829562ea3c17cbf11b273f9ec</Anchor>
+    <Abstract>Create and initialize a new audio file metadata request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNBigram</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_bigram.html</Path>
+    <Abstract>A bigram phrase, including mutual information scores.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithFirstWordString:secondWordString:mi:wlmi:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_bigram.html</Path>
+    <Anchor>a77bc6c4ad93c2bc1f900ebc8693fac62</Anchor>
+    <Abstract>Initialize a bigram with the given compontents and mutual information scores.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>bigramWithFirstWordString:secondWordString:mi:wlmi:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_bigram.html</Path>
+    <Anchor>ada5f9b243a3313086dc043e59e037725</Anchor>
+    <Abstract>Create and initialize a bigram with the given compontents and mutual information scores.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>firstWordString</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_bigram.html</Path>
+    <Anchor>a66e35cfe02529d2a0bc9f909d39a7d62</Anchor>
+    <Abstract>The first word string of this bigram.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>secondWordString</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_bigram.html</Path>
+    <Anchor>abf04d5c54a0a40e3a1117bd46e466553</Anchor>
+    <Abstract>The second word string of this bigram.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>mi</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_bigram.html</Path>
+    <Anchor>af57d5c97a7fa0a3ad3e77eda2b53d793</Anchor>
+    <Abstract>The mutual information score for this bigram.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wlmi</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_bigram.html</Path>
+    <Anchor>a5338fa07da12022bdc28ef99701ba156</Anchor>
+    <Abstract>The weighted-log mutual information score for this bigram.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNBoxRelatedWordListNode</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_box_related_word_list_node.html</Path>
+    <Abstract>Displays a list of related words, implementing UILineBreakModeWordWrap-style line breaks...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithRelatedWords:fontFamily:margin:frame:delegateReference:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_box_related_word_list_node.html</Path>
+    <Anchor>ac48cea73770e31e90456092d14ff5398</Anchor>
+    <Abstract>Initialize with the provideded ordered array of related words.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNClient</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Abstract>A client for the Wordnik Network API.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithClientConfig:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>a93d52a72e185dde9cefb65ff99628908</Anchor>
+    <Abstract>Initialize a new Wordnik client with the given client configuration.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>loginWithCredentials:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>a54bfbf7c8e6d65631f7229c026a3aae5</Anchor>
+    <Abstract>Submit an authentication request with the provided credentials.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>loginWithCredentials:completionBlock:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>aae37d1807d5e9b64aca6609c4c6d2424</Anchor>
+    <Abstract>Submit an authentication request with the provided credentials, and call completionBlock upon complet...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>logout</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>a364de46ed79ef6796897ae9bdf8f6ddf</Anchor>
+    <Abstract>Log out, discarding any cached credentials and cancelling any pending authentication requests...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wordWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>a8f96a9bfddacea67ccc769c30c17abac</Anchor>
+    <Abstract>Submit a word request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wordsWithRequests:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>a4c67a32422dbd87fbf1e0194516e5e54</Anchor>
+    <Abstract>Submit a batched word request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wordWithRequest:completionBlock:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>a9b68d1d28ddc7cfc332508906fc6dc39</Anchor>
+    <Abstract>Submit a word request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wordsWithRequests:completionBlock:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>af43b9511297e70d14e41eb4a798e7c4b</Anchor>
+    <Abstract>Submit a batched word request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>autocompletedWordsWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>a16a44c9fac6f3d0a4bca1eafe145695b</Anchor>
+    <Abstract>Submit a request for words that match a given word fragment.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>autocompletedWordsWithRequest:completionBlock:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>ac4d0a3ddeb430ab3588a8dc75a3076b0</Anchor>
+    <Abstract>Submit a request for words that match a given word fragment.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>requestWordOfTheDay</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>af570679525bf50fec6369efd2e79372e</Anchor>
+    <Abstract>Submit a request for the current word of the day.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>requestWordOfTheDayWithCompletionBlock:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>a9f1d30b9e168dedd6f6044238f88e870</Anchor>
+    <Abstract>Submit a request for the current word of the day.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>createWordListWithRequest:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>a07668c2efc8f5a62dc7596fd34228e14</Anchor>
+    <Abstract>Submit a word list creation request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>createWordListWithRequest:completionBlock:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>a8d3391cd2e4eb6e51c2e0bc2b6573a93</Anchor>
+    <Abstract>Submit a word list creation request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>deleteWordListWithIdentifier:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>ae0c4229f636011c33f2bfa9ee3a6d1d8</Anchor>
+    <Abstract>Submit a word list deletion request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>deleteWordListWithIdentifier:completionBlock:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>a2e13a04e51dfcbe4fe4f12d56e2079e1</Anchor>
+    <Abstract>Submit a word list deletion request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>requestAllWordListInfo</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>ac534f322fe4cf5928be940f6fcba1999</Anchor>
+    <Abstract>Submit a word list info request for all of the authenticated user&amp;#39;s word lists.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wordsFromListWithIdentifier:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>a692c22ba8bbc33e5ee4e54c395dedc49</Anchor>
+    <Abstract>Submit a request for all word strings in the given list.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wordsFromListWithIdentifier:completionBlock:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>a558239c77c6cae8512980e99d9df48d6</Anchor>
+    <Abstract>Submit a request for all word strings in the given list.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>addWord:toListWithIdentifier:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>ad632b4af9070204eb71c5c3b540deb5e</Anchor>
+    <Abstract>Request that the given word string be added to a list.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>addWord:toListWithIdentifier:completionBlock:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>af9c3751567060bfe5bb02b839f7118ae</Anchor>
+    <Abstract>Request that the given word string be added to a list.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>removeWord:fromListWithIdentifier:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>a992c1499861c806a0d784a4998eab6f9</Anchor>
+    <Abstract>Request that the given word string be removed from a list.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>removeWord:fromListWithIdentifier:completionBlock:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>ad7e3c3137e638e0fff03033a95b91632</Anchor>
+    <Abstract>Request that the given word string be removed from a list.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>addObserver:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>a2da33dc5a173e7543fa157a15ed0fac7</Anchor>
+    <Abstract>Add a WNClientObserver.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>removeObserver:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>a0179612e8939411c2a377575c3dd661c</Anchor>
+    <Abstract>Remove a WNClientObserver.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>clientWithConfig:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>a50f87b1921a9a47411bb50b67876cebe</Anchor>
+    <Abstract>Create and inititialize a new Wordnik client with the given client configuration.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>clientConfig</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>adc57b75c1d44e4484b46db82a88ecfdc</Anchor>
+    <Abstract>The client config used during initialization.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>authenticationState</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client.html</Path>
+    <Anchor>aa58971bca278a2aa96c4a790d6cd0f82</Anchor>
+    <Abstract>The current client authentication state.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNClientAPIUsageStatus</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client_a_p_i_usage_status.html</Path>
+    <Abstract>The API usage information as provided by the server for your Wordnik API key.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithTotalPermittedRequestCount:remainingPermittedRequestCount:expirationDate:resetDate:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client_a_p_i_usage_status.html</Path>
+    <Anchor>a981ecd80807599e7b2179518e751d1ba</Anchor>
+    <Abstract>Initialize a new usage status result.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>usageStatusWithTotalPermittedRequestCount:remainingPermittedRequestCount:expirationDate:resetDate:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client_a_p_i_usage_status.html</Path>
+    <Anchor>a475ef6890aa98e1417a80bf5ea14aeba</Anchor>
+    <Abstract>Create and initialize a new usage status result.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>totalPermittedRequestCount</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client_a_p_i_usage_status.html</Path>
+    <Anchor>ab0782fbb5cefd1e017f30e3fb6a45af0</Anchor>
+    <Abstract>Total number of permitted requests within this reset period.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>remainingPermittedRequestCount</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client_a_p_i_usage_status.html</Path>
+    <Anchor>a738aafe9c67ccb4fe55bb6e0b2d8a283</Anchor>
+    <Abstract>Remaining number of requests within this reset period.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>expirationDate</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client_a_p_i_usage_status.html</Path>
+    <Anchor>a749df41e40e0868e575207de1d326895</Anchor>
+    <Abstract>Date after which this reset period will expire, or nil for no expiration.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>resetDate</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client_a_p_i_usage_status.html</Path>
+    <Anchor>afbab0452e8c9ee315a53166cf7ccb97a</Anchor>
+    <Abstract>Date after which this reset period will be reset, or nil if no reset will occur.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNClientConfig</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client_config.html</Path>
+    <Abstract>REST client configuration.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithAPIKey:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client_config.html</Path>
+    <Anchor>a21572f5c1320a754f5cb3b090505668d</Anchor>
+    <Abstract>Initialize a new instance with the default Wordnik API URLs and the provided key.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithURL:secureURL:apiKey:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client_config.html</Path>
+    <Anchor>ab07957d10c5504faefb7e885201895e2</Anchor>
+    <Abstract>Initialize a new instance with the provided API URL and key.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>configWithAPIKey:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client_config.html</Path>
+    <Anchor>a9dd5a03e698d8b0bb0f2060242a1972d</Anchor>
+    <Abstract>Create and initialize a new instance with the default Wordnik API URLs and the provided key...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>URL</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client_config.html</Path>
+    <Anchor>a9f44a10edaea615b32c5b7730a739b8b</Anchor>
+    <Abstract>The base API URL.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>secureURL</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client_config.html</Path>
+    <Anchor>a16b60936e4ab73e915e324c6150d533b</Anchor>
+    <Abstract>The base secure API URL.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>apiKey</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client_config.html</Path>
+    <Anchor>a6c9b3f95b50fb0af68be67d0317cceee</Anchor>
+    <Abstract>The API key used for requests.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNClientCredentials</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client_credentials.html</Path>
+    <Abstract>Wordnik account credentials.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithUsername:password:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client_credentials.html</Path>
+    <Anchor>a4f756b136906758fccd82dfbe087546c</Anchor>
+    <Abstract>Create and initialize a new credentials instance.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>credentialsWithUsername:password:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client_credentials.html</Path>
+    <Anchor>a292e6d48104b6ef03c4d26ef91b8573f</Anchor>
+    <Abstract>Create and initialize a new credentials instance.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>username</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client_credentials.html</Path>
+    <Anchor>aa8b1992dd15e142f3a281dffbaf6b86b</Anchor>
+    <Abstract>Wordnik username.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>password</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_client_credentials.html</Path>
+    <Anchor>ae72b168a7463a4cde05228032933d28e</Anchor>
+    <Abstract>Wordnik password.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNClientObserver</Name>
+      <APILanguage>c</APILanguage>
+      <Type>intf</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Abstract>The WNClientObserver protocol declares the interface that WNClient observers must implement...</Abstract>
+    <DeclaredIn>WNClientObserver.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:didReceiveAPIUsageStatus:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>ab90d023bfb3bf876a6b12328da81a07a</Anchor>
+    <Abstract>Sent when an API usage status request succeeds.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:apiUsageStatusRequestDidFailWithError:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>a99061ec276b7172234cbddd7067662b6</Anchor>
+    <Abstract>Sent when an API usage status request fails.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:didLoginWithRequestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>a1bba908881ef42dec1fdfafb74532f8f</Anchor>
+    <Abstract>Sent when client authentication succeeds.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>clientDidLogout:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>a83473731eb030eae1840f8bc21810348</Anchor>
+    <Abstract>Sent when the client logs out.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:loginDidFailWithError:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>a609b96367d088f7263e35f614461c286</Anchor>
+    <Abstract>Sent when client authentication has failed.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:didReceiveWordResponse:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>ad9d33490d81714f175410c9d38c43184</Anchor>
+    <Abstract>Sent when a single word request has succeeded.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:didReceiveWordResponses:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>aa89b6dc35af49d85d217e4950df175e9</Anchor>
+    <Abstract>Sent when a multi-word request has succeeded.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:wordRequestDidFailWithError:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>a03a580deac76a39351c98614c47dadda</Anchor>
+    <Abstract>Sent when a single or mult-word request has failed.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:didReceiveRandomWords:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>a542e77040fb071830503e5bf56f077dd</Anchor>
+    <Abstract>Sent when a random word request has succeeded.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:randomWordRequestDidFailWithError:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>a437a4215e6e40d9c2dda2995d4c4d705</Anchor>
+    <Abstract>Sent when a random word request has failed.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:didReceiveAutocompleteWordResponse:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>a97c7b34c60b0fc5770cbc4ecf5a3cb3a</Anchor>
+    <Abstract>Sent when an autocomplete request has succeeded.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:autocompleteWordRequestDidFailWithError:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>aaaa167822ef71a1cf244593aa3d91194</Anchor>
+    <Abstract>Sent when an autocomplete request has failed.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:didReceiveWordOfTheDayResponse:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>ac29ba2182b8f22bb823f2f3f150d66ba</Anchor>
+    <Abstract>Sent when a word of the day request has succeeded.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:wordOfTheDayRequestDidFailWithError:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>a9a44459b46fc5d2888ebfaba879dda21</Anchor>
+    <Abstract>Sent when a word of the day request has failed.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:didReceiveWordListCreateResponse:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>a648ae453813fa85a564a477367e1ee73</Anchor>
+    <Abstract>Sent when a word list creation request has succeeded.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:wordListCreationDidFailWithError:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>a20f7e84c1943159d21f3412143818317</Anchor>
+    <Abstract>Sent when a word list creation request has failed.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:wordListDeletionDidFailWithError:identifier:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>a855cd3ec81bbd1d081eb84162cafb184</Anchor>
+    <Abstract>Sent when a word list deletion request has failed.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:didDeleteWordListWithIdentifier:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>a48ddbfd8650e8111a88e8059864371f5</Anchor>
+    <Abstract>Sent when a word list deletion request has succeeded.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:didReceiveAllWordListInfo:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>a9e7faa47a21d3d91257225cd1fbd1e35</Anchor>
+    <Abstract>Sent when an all word list info request has succeeded.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:allWordListInfoRequestDidFailWithError:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>a57fea145d6329ffe5fad52f78c9b5247</Anchor>
+    <Abstract>Sent when an all word list info request has failed.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:didReceiveWords:forListWithIdentifier:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>a38eaa045b99b061db619cc9c6d0e5097</Anchor>
+    <Abstract>Sent when the full list of word strings for a given list has been received.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:wordRequestDidFailWithError:forListWithIdentifier:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>a1c00f486d2808b8d4a56c99baa27818f</Anchor>
+    <Abstract>Sent when a word list word string request has failed.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:didAddWord:toListWithIdentifier:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>affa2b48ee38ae83f1088974b56563f20</Anchor>
+    <Abstract>Sent when a word string has successfully been added to a word list.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:didFailToAddWord:withError:toListWithIdentifier:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>a817c2614bcd837137759f14f1f591ce9</Anchor>
+    <Abstract>Sent when a failure occurs adding a word string to a word list.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:didRemoveWord:fromListWithIdentifier:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>a927d9f6c04df845e1e8245bdb5fcc81f</Anchor>
+    <Abstract>Sent when a word string has successfully been removed from a word list.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>client:didFailToRemoveWord:withError:fromListWithIdentifier:requestTicket:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_client_observer-p.html</Path>
+    <Anchor>a6807738a8bb479d3dd326de6b0cc2543</Anchor>
+    <Abstract>Sent when a failure occurs removing a word string from a word list.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNCompositeDataSourceListener</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_composite_data_source_listener.html</Path>
+    <Abstract>Data source listener which will request word from multiple data sources and return result to another ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithMasterSource:dataSources:wordString:listener:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_composite_data_source_listener.html</Path>
+    <Anchor>a80a4fbc131a27e486d70bd69d35b0c77</Anchor>
+    <Abstract>Initialize a new instance for a composite data source, an array of data sources to use...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>start</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_composite_data_source_listener.html</Path>
+    <Anchor>a8a0693e3796b491d23ad4339788e7c87</Anchor>
+    <Abstract>Start the requests.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cancel</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_composite_data_source_listener.html</Path>
+    <Anchor>a0f8b9735215cb55aa337bd7939124203</Anchor>
+    <Abstract>Cancels the current request and own internal callback for error.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNCompositeWordDataSource</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_composite_word_data_source.html</Path>
+    <Abstract>Composite data source looks up words from one or more data sources.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>init</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_composite_word_data_source.html</Path>
+    <Anchor>aafce46de5b224822297b22d2f5b3a1c2</Anchor>
+    <Abstract>Initialize a new instance with the default policy and no data sources.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>addLocalDataSource:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_composite_word_data_source.html</Path>
+    <Anchor>a13620c78db6d29215a554f21ca000558</Anchor>
+    <Abstract>Adds a local data source to the composite.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>removeLocalDataSource:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_composite_word_data_source.html</Path>
+    <Anchor>a37e9e6c19e8790490ff93c171501c63f</Anchor>
+    <Abstract>Removes a local data source from the composite.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>addNetworkDataSource:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_composite_word_data_source.html</Path>
+    <Anchor>ad0ae76baa00f1974edfb6a90fce62c87</Anchor>
+    <Abstract>Adds a network data source to the composite.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>removeNetworkDataSource:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_composite_word_data_source.html</Path>
+    <Anchor>a79dc96277aaa84e0095372fc9d868644</Anchor>
+    <Abstract>Removes a network data source from the composite.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>policy</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_composite_word_data_source.html</Path>
+    <Anchor>a85f40307724e39a320d00dd6a201a69a</Anchor>
+    <Abstract>The technique used to get the results.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNDefinition</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition.html</Path>
+    <Abstract>A dictionary word definition.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithHeadWord:text:extendedText:partOfSpeech:citations:labels:dictionary:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition.html</Path>
+    <Anchor>a1ba0e3493f3558d30ec4a1d7ec44bf15</Anchor>
+    <Abstract>Initialize a new definition instance.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>definitionWithHeadWord:text:extendedText:partOfSpeech:citations:labels:dictionary:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition.html</Path>
+    <Anchor>a98adf74101eb756be50ef4cb0ca66aec</Anchor>
+    <Abstract>Create and initialize a new definition instance.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>headWord</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition.html</Path>
+    <Anchor>a5c5fe3b0416a9f7a03d81c5c4bd21912</Anchor>
+    <Abstract>Head word.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>text</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition.html</Path>
+    <Anchor>af279a4b1a376ba46720370bc1411226f</Anchor>
+    <Abstract>The definition text.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>extendedText</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition.html</Path>
+    <Anchor>ab2419edd7d358a3ed8fd9ccb4563130a</Anchor>
+    <Abstract>The optional extended definition text.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>partOfSpeech</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition.html</Path>
+    <Anchor>a23c3c40090f80240e5425afc96f28af4</Anchor>
+    <Abstract>This definition&amp;#39;s part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>citations</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition.html</Path>
+    <Anchor>acf9e204b40d3bf48b0e8237d4553080a</Anchor>
+    <Abstract>The ordered array of citations for this definition, as an array of WNDefinitionCitation instances...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>labels</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition.html</Path>
+    <Anchor>af202089cd721570ce12d2407913c549c</Anchor>
+    <Abstract>The array of labels for this definition, as an array of WNDefinitionLabel instances.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dictionary</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition.html</Path>
+    <Anchor>a74112ad85186442227e8f1a458014ee6</Anchor>
+    <Abstract>The source dictionary for this definition.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNDefinitionCitation</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_citation.html</Path>
+    <Abstract>A definition usage citation.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithSourceName:text:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_citation.html</Path>
+    <Anchor>af14a641ffbb959c2f3cf88acacd9f3c8</Anchor>
+    <Abstract>Initialize a new instance with the citation source name and text.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>citationWithSourceName:text:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_citation.html</Path>
+    <Anchor>a76bc04803076929e272de71426440669</Anchor>
+    <Abstract>Create and initialize a new instance with the citation source name and text.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sourceName</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_citation.html</Path>
+    <Anchor>ac75cc39205b995250717da6e3b34a270</Anchor>
+    <Abstract>The citation source&amp;#39;s name.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>text</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_citation.html</Path>
+    <Anchor>a56cdc0a0aeda7a0253ab758974972215</Anchor>
+    <Abstract>The citation text.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNDefinitionHeaderView</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_header_view.html</Path>
+    <Abstract>Displays a definition header containing &amp;#39;quick-link&amp;#39; buttons for skipping to a specific secti...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithDefinitionSections:fontFamily:frame:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_header_view.html</Path>
+    <Anchor>aa61c5f06e1dbd762d7a8e3903c71a560</Anchor>
+    <Abstract>Initialize a new header view.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sections</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_header_view.html</Path>
+    <Anchor>a6f811020f82894336455909cf42a20b5</Anchor>
+    <Abstract>The WNBoxWordDefinitionSectionNode sections for which header buttons will be displayed.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>delegate</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_header_view.html</Path>
+    <Anchor>afdaaf8d5cdc5d257d2f524572853fe56</Anchor>
+    <Abstract>The header view delegate.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNDefinitionHeaderViewDelegate</Name>
+      <APILanguage>c</APILanguage>
+      <Type>intf</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_definition_header_view_delegate-p.html</Path>
+    <Abstract>The WDefinitionHeaderViewDelegate protocol declares the interface that must be implemented by WDefini...</Abstract>
+    <DeclaredIn>WNDefinitionHeaderViewDelegate.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>headerView:didSelectSectionNode:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_definition_header_view_delegate-p.html</Path>
+    <Anchor>a3886742987e6e07f9e809e4275c9860e</Anchor>
+    <Abstract>Sent when a header section node is selected.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNDefinitionLabel</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_label.html</Path>
+    <Abstract>A definition label.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithLabelType:text:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_label.html</Path>
+    <Anchor>a2d650cc6816e5cb2c2bfe0c608a33977</Anchor>
+    <Abstract>Initialize a new label with the provided type and string value.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>labelWithType:text:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_label.html</Path>
+    <Anchor>a74c7cccf98017a02573ce8ef255a1416</Anchor>
+    <Abstract>Create and initialize a new label with the provided type and string value.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>type</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_label.html</Path>
+    <Anchor>a12b2cbf8396aa694e13e3c8fef59f894</Anchor>
+    <Abstract>Label type.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>text</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_label.html</Path>
+    <Anchor>aeb554f2db262315452efafd6325d0030</Anchor>
+    <Abstract>Label text.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNDefinitionList</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_list.html</Path>
+    <Abstract>An ordered list of word definitions.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithSourceDictionary:definitionArray:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_list.html</Path>
+    <Anchor>a9ea1d5ff4604e68c630343eae54b1b36</Anchor>
+    <Abstract>Initialize a new instance with the provided array of WNDefinition instances.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>definitionsForPartOfSpeech:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_list.html</Path>
+    <Anchor>a41ea813838b59e05ae0e523939c12360</Anchor>
+    <Abstract>Return an ordered array of definitions for the given partOfSpeech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>definitionsForHeadWord:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_list.html</Path>
+    <Anchor>a1b767c07a4af031e29cbbc5930c746bc</Anchor>
+    <Abstract>Return an ordered array of definitions for the given headerWord.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>listWithSourceDictionary:definitionArray:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_list.html</Path>
+    <Anchor>a34ae20bf962645bf1830ccbba3c59caa</Anchor>
+    <Abstract>Create and initialize a new instance with the provided array of WNDefinition instances.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sourceDictionary</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_list.html</Path>
+    <Anchor>addfbd1c830aa2d792c9335144b6c2389</Anchor>
+    <Abstract>The source dictionary.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>definitions</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_list.html</Path>
+    <Anchor>a9f7afe65ede7970e90a7f443822efee1</Anchor>
+    <Abstract>Ordered array of definitions.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>headWords</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_list.html</Path>
+    <Anchor>ab01da60f7eb79f53b520478897cfe09c</Anchor>
+    <Abstract>Ordered array of unique headwords contains in this list&amp;#39;s definitions, as an array of NSString in...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>partsOfSpeech</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_list.html</Path>
+    <Anchor>a064d30185106812685e735ee43a41e98</Anchor>
+    <Abstract>The parts of speech for which definitions are available.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNDefinitionView</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_view.html</Path>
+    <Abstract>A definition view provides a view-based container for displaying a single Wordnik dictionary definiti...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithFrame:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_view.html</Path>
+    <Anchor>a88ba3a398d625d3efbeed7853ab51e17</Anchor>
+    <Abstract>Initialize and return a new definition view with the specified frame rectangle.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>word</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_view.html</Path>
+    <Anchor>a5d8e0499d02783b9abb1758d4b31c192</Anchor>
+    <Abstract>The displayed word, or nil if none configured.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>delegate</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_view.html</Path>
+    <Anchor>ade2fb8c676c82110b657573e5e202fe7</Anchor>
+    <Abstract>The definition view delegate.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNDefinitionViewController</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_view_controller.html</Path>
+    <Abstract>A definition view controller provides a standardized view controller for displaying a Wordnik word de...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithWord:dataSource:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_view_controller.html</Path>
+    <Anchor>afd41b7db0a68acdc5345781648ae4998</Anchor>
+    <Abstract>Initialize a new definition view controller.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dataSource</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_view_controller.html</Path>
+    <Anchor>a0f8b397d69f1e02b37e7b9b042d2f50e</Anchor>
+    <Abstract>The object that acts as the data source of the receiving definition view controller.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>delegate</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_definition_view_controller.html</Path>
+    <Anchor>a33b358e2856b6c693a3795c4918572e2</Anchor>
+    <Abstract>The view controller delegate.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNDefinitionViewControllerDelegate</Name>
+      <APILanguage>c</APILanguage>
+      <Type>intf</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_definition_view_controller_delegate-p.html</Path>
+    <Abstract>The WNDefinitionViewControllerDelegate protocol declares the interface that must be implemented by WN...</Abstract>
+    <DeclaredIn>WNDefinitionViewControllerDelegate.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>definitionViewControllerDidRequestClose:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_definition_view_controller_delegate-p.html</Path>
+    <Anchor>a2fe79b0bf38b6fc2d3e1e0e3af6a7f5c</Anchor>
+    <Abstract>Sent when the user requests that the definition view controller be dismissed.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNDefinitionViewDelegate</Name>
+      <APILanguage>c</APILanguage>
+      <Type>intf</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_definition_view_delegate-p.html</Path>
+    <Abstract>The WNDefinitionViewDelegate protocol declares the interface that must be implemented by WNDefinition...</Abstract>
+    <DeclaredIn>WNDefinitionViewDelegate.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>definitionView:didNavigateToURL:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_definition_view_delegate-p.html</Path>
+    <Anchor>ae16a791e930bf525de0b13935f1f70d2</Anchor>
+    <Abstract>Sent when the user navigates to an internet-based URL.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>definitionView:didSelectWordString:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_definition_view_delegate-p.html</Path>
+    <Anchor>acfd36b27136988e5f8165417d5a3e57b</Anchor>
+    <Abstract>Sent when the user selects a new word for additional detail.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNDictionary</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_dictionary.html</Path>
+    <Abstract>A Wordnik dictionary reference.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithDictionaryName:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_dictionary.html</Path>
+    <Anchor>aa1b5a826480bda5514c46bcf71503e5f</Anchor>
+    <Abstract>Initialize a new dictionary reference for a dictionary with the provided canonical Wordnik dictionary...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ahdDictionary</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_dictionary.html</Path>
+    <Anchor>ad6792cf22d996ad1d289a37d7c7dda28</Anchor>
+    <Abstract>Return a dictionary reference for American Heritage.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>centuryDictionary</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_dictionary.html</Path>
+    <Anchor>a1f14d9e5941eae4d859e3dec503291b8</Anchor>
+    <Abstract>Return a dictionary reference for The Century Dictionary.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wiktionaryDictionary</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_dictionary.html</Path>
+    <Anchor>ad7ded1ff45a15a89882ab1a3db4f82fa</Anchor>
+    <Abstract>Return a dictionary reference for Wiktionary.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>websterDictionary</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_dictionary.html</Path>
+    <Anchor>a7116023dfc40baf171358b3154668201</Anchor>
+    <Abstract>Return a dictionary reference for The Webster Dictionary.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wordnetDictionary</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_dictionary.html</Path>
+    <Anchor>aa71ffabcd2a79514fe9ecc2f6ded9cbe</Anchor>
+    <Abstract>Return a dictionary reference for Wordnet.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dictionaryWithName:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_dictionary.html</Path>
+    <Anchor>a9e39a53e51a6680672ea3a469d9231b0</Anchor>
+    <Abstract>Create and initialize a new dictionary reference for a dictionary with the provided canonical Wordnik...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>name</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_dictionary.html</Path>
+    <Anchor>a436a382eb02b05843e0e0138c7027a79</Anchor>
+    <Abstract>Canonical Wordnik dictionary name.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>localizedName</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_dictionary.html</Path>
+    <Anchor>a33d989de851a689fd249662bd90dbf1e</Anchor>
+    <Abstract>The name of the dictionary, localized for the current locale.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNExample</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_example.html</Path>
+    <Abstract>An example sentence demonstrating the usage of a word.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithTitle:text:publicationDateComponents:sourceURL:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_example.html</Path>
+    <Anchor>a39d5e1a9fd5c8d72d7318d1906ec05db</Anchor>
+    <Abstract>Initialize a new example sentence.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>exampleSentenceWithTitle:text:publicationDateComponents:sourceURL:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_example.html</Path>
+    <Anchor>a47c1d69455f568415855b105811e0316</Anchor>
+    <Abstract>Create and initialize a new example sentence.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>text</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_example.html</Path>
+    <Anchor>ac5686f98fdac3dfd2ca2aab58c0d4eef</Anchor>
+    <Abstract>The example text.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>title</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_example.html</Path>
+    <Anchor>ab985aa179a323341a635dd8a2de4c630</Anchor>
+    <Abstract>The example&amp;#39;s title.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>publicationDateComponents</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_example.html</Path>
+    <Anchor>a4b074f6e10349800225b06b97233237f</Anchor>
+    <Abstract>The example&amp;#39;s publication date, or nil if unknown.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sourceURL</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_example.html</Path>
+    <Anchor>a5b40ac4407877eb65ad5185a78e7cd9a</Anchor>
+    <Abstract>The example&amp;#39;s source URL, or nil if no URL is available.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNExampleTests</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_example_tests.html</Path>
+    <Abstract>WNExample Tests.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNOfflineDatabase</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_offline_database.html</Path>
+    <Abstract>Offline word and word properties database.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithPath:readOnly:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_offline_database.html</Path>
+    <Anchor>ae10af22a707655272263bab833d1fd1a</Anchor>
+    <Abstract>Initialize a new instance using the provided path.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initForReadingWithPath:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_offline_database.html</Path>
+    <Anchor>a588accba2ab14cfe3bfb1059048cad7e</Anchor>
+    <Abstract>Initialize a new database for read-only access only.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initForUpdatingWithPath:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_offline_database.html</Path>
+    <Anchor>a19e4f3768f6acd681f9b109867ccf9bc</Anchor>
+    <Abstract>Initialize a new database for read-write access only.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>createTablesIfNeeded</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_offline_database.html</Path>
+    <Anchor>ad1e4611b3f997b87465a128c8f75b0af</Anchor>
+    <Abstract>Create all database tables and initialize the metadata table with a version.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wordWithWord:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_offline_database.html</Path>
+    <Anchor>a21813c83bc4667fc0a2ec0899e71470d</Anchor>
+    <Abstract>Create a word and all of the properties present in the database for the given word.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNPartOfSpeech</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Abstract>An (English) part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithPartOfSpeechName:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a4fbfa144380e598645abf08334d360f1</Anchor>
+    <Abstract>Initialize a new part of speech type for a part of speech with a canonical Wordnik-assigned name...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>notSpecified</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a2e15d86001ed233408f9411cbeb14231</Anchor>
+    <Abstract>Return a not specified part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>noun</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a434c4b1e7fe0aef828cb847271aae94a</Anchor>
+    <Abstract>Return a noun part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>verb</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a552d4c466a902c2dddac44581f304e2c</Anchor>
+    <Abstract>Return a verb part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>adjective</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a102e61d531ee5e5004b2f71701a0455f</Anchor>
+    <Abstract>Return a adjective part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>adverb</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a2db96d9f92dbec22bb47ca07e209ce56</Anchor>
+    <Abstract>Return a adverb part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>idiom</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a7ea34b019f08763dc845a3df92eeef89</Anchor>
+    <Abstract>Return a idiom part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>article</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a74ab7c98509a25d513b2c432fd63e190</Anchor>
+    <Abstract>Return a article part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>abbreviation</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a4fcc62f5801db4442e314a0116b25bc9</Anchor>
+    <Abstract>Return a abbreviation part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>preposition</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a8b3924460b34718fe1854d1d5410ef34</Anchor>
+    <Abstract>Return a preposition part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>prefix</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a6225f720b28065f50f247e81299753f8</Anchor>
+    <Abstract>Return a prefix part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>interjection</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>abc6d91e3aed2cb3b8a2e9e37e8cb1904</Anchor>
+    <Abstract>Return a interjection part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>suffix</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a1de41a2d4cac7d621e8acb11b8bf1196</Anchor>
+    <Abstract>Return a suffix part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>conjunction</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>aff6e3d7b00290758e6a437b35cfaab2b</Anchor>
+    <Abstract>Return a conjunction part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>adjectiveAndAdverb</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>aa93677cd5a93fdb5e169d35c2081b75b</Anchor>
+    <Abstract>Return a adjective-and-adverb part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nounAndAdjective</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a72bff9cba145bb9ffc9b1212e526fe8d</Anchor>
+    <Abstract>Return a noun-and-adjective part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nounAndVerbTransitive</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a83ceedb41951bad10ed364147d223d40</Anchor>
+    <Abstract>Return a noun-and-verb-transitive part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nounAndVerb</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a6b1dc8b4b99e5527d8d6ecf6fde74068</Anchor>
+    <Abstract>Return a noun-and-verb part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pastParticiple</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>aeec77dc9f113ce5a7f8e6d0bf43ac084</Anchor>
+    <Abstract>Return a past-participle part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>imperative</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>ab8070193592519dc50c621f0f55d11c0</Anchor>
+    <Abstract>Return a imperative part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nounPlural</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a6e809bf816e9a5d9ff1a4524705939cc</Anchor>
+    <Abstract>Return a noun-plural part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>properNounPlural</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a9508c2ce3bd7558518ad5dcedba3964f</Anchor>
+    <Abstract>Return a proper-noun-plural part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>verbIntransitive</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a2aa21341282cbddfc1deec64340033b6</Anchor>
+    <Abstract>Return a verb-intransitive part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>properNoun</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a084abc1697b1a5907cf3fadb54f0ebe0</Anchor>
+    <Abstract>Return a proper-noun part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>adjectiveAndNoun</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>aeb6e2096190bd0a14c34506be05a5ab6</Anchor>
+    <Abstract>Return a adjective-and-noun part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>imperativeAndPastParticiple</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>af88ca9f088032d12c134f1fb84ba1296</Anchor>
+    <Abstract>Return a imperative-and-past-participle part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pronoun</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>abfffa1ea92d0ea6c6d1a240e380dcc8d</Anchor>
+    <Abstract>Return a pronoun part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>verbTransitive</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a44e248a38ef118b59459ee56966c4a63</Anchor>
+    <Abstract>Return a verb-transitive part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nounAndVerbIntransitive</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>ac1f6fc3b5b79befae17adc468b94564c</Anchor>
+    <Abstract>Return a noun-and-verb-intransitive part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>adverbAndPreposition</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a2811e3484fd51d43f486033bc9edb6e9</Anchor>
+    <Abstract>Return a adverb-and-preposition part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>properNounPosessive</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a8987bc9b97f116d93d5a4c8ea8492493</Anchor>
+    <Abstract>Return a proper-noun-posessive part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>nounPosessive</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a0c61f8da472a10ff9c89c5a4f9de082d</Anchor>
+    <Abstract>Return a noun-posessive part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>partOfSpeechWithName:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>ab1f64618281d23caa22b64d793ab3452</Anchor>
+    <Abstract>Create and initialize a new part of speech type for a part of speech with a canonical Wordnik-assigne...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>name</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a0fff04f4fbe4d239a65029426952cee7</Anchor>
+    <Abstract>Canonical Wordnik part-of-speech name.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>localizedName</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_part_of_speech.html</Path>
+    <Anchor>a8ca419e4f6ee2eaa901fd0432466bb86</Anchor>
+    <Abstract>A human readable name for this part of speech.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNRandomWordRequest</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_random_word_request.html</Path>
+    <Abstract>A random word request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>init</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_random_word_request.html</Path>
+    <Anchor>a69e0d8b4858eb41a66994b9f87658cf3</Anchor>
+    <Abstract>Initialize a random word request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>request</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_random_word_request.html</Path>
+    <Anchor>a12fdaee6dcc367d8ece074696ad5f1d9</Anchor>
+    <Abstract>Create and initialize a random word request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>requestWordsWithParameters:includePartOfSpeech:excludePartOfSpeech:minCorpusCount:maxCorpusCount:minDictionaryCount:maxDictionaryCount:minLength:maxLength:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_random_word_request.html</Path>
+    <Anchor>a567e89eefe8b99adcaf459eb86923eea</Anchor>
+    <Abstract>Create and initialize a random words request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>count</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_random_word_request.html</Path>
+    <Anchor>a2a960205db6a3d196a89c94aa7dfd40c</Anchor>
+    <Abstract>The maximum number of results to return, or WNUnlimitedResultLength to return the maximum number perm...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNReachability</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_reachability.html</Path>
+    <Abstract>Network reachability querying and notification of reachability changes.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>startNotifier</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_reachability.html</Path>
+    <Anchor>af28dc3aa08908a898487236edd179593</Anchor>
+    <Abstract>Start the asynchronous notifications of reachability changing.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stopNotifier</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_reachability.html</Path>
+    <Anchor>a7a5d19d151ae5fb46281d5b375e755ac</Anchor>
+    <Abstract>Stops the asynchronous notifications of reachability changing.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>currentReachabilityStatus</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_reachability.html</Path>
+    <Anchor>ac9950c6d4b646d7e620c6dc550abadf9</Anchor>
+    <Abstract>Query the current reachability status.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>connectionRequired</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_reachability.html</Path>
+    <Anchor>a048c3dc0337484fa5310fe80e28b6ff5</Anchor>
+    <Abstract>Returns whether a connection is required to bring up reachability to the address.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reachabilityWithHostName:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_reachability.html</Path>
+    <Anchor>ab475bc92a4a757737d70fdf3943e5ca2</Anchor>
+    <Abstract>Creates and returns a new reachability instance for the specified host name.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reachabilityWithAddress:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_reachability.html</Path>
+    <Anchor>a444ada22ee0e7582f2592ee2067ae48d</Anchor>
+    <Abstract>Creates and returns a new reachability instance for the specified host address.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reachabilityForInternetConnection</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_reachability.html</Path>
+    <Anchor>ac33d188a9c7e69f939d451b78199e4f7</Anchor>
+    <Abstract>Creates and returns a new reachability instance for the internet connection (address 0...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reachabilityForLocalWiFi</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_reachability.html</Path>
+    <Anchor>a0f3ac369532915d37fa5264d00fdc5c5</Anchor>
+    <Abstract>Creates and returns a new reachability instance for the wifi connection (address 169.254.0.0).</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNRelatedWordList</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_list.html</Path>
+    <Abstract>An ordered list of related words.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithRelatedWordArray:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_list.html</Path>
+    <Anchor>a33e23392dd84fb6127fd64aa542e33e8</Anchor>
+    <Abstract>Initialize a new instance with the provided array of WNRelatedWord instances.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wordsForRelationType:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_list.html</Path>
+    <Anchor>a32e1127cc5a4266097fb4580ab1f2cbc</Anchor>
+    <Abstract>Return an ordered array of related words for the given relationType.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>listByAppendingWordsFromList:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_list.html</Path>
+    <Anchor>abe89722ebb656c5ceb3d7b556fc64bd7</Anchor>
+    <Abstract>Return a new definition list that is a copy of the receiving list with the definitions contained in o...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>listWithRelatedWordArray:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_list.html</Path>
+    <Anchor>a65e53e513a53782812a65d1a437e21ec</Anchor>
+    <Abstract>Create and initialize a new instance with the provided array of WNRelatedWord instances.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>relatedWords</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_list.html</Path>
+    <Anchor>a1c8facbb99b4855b6f3533a9599689ba</Anchor>
+    <Abstract>Ordered array of related words.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>relationTypes</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_list.html</Path>
+    <Anchor>a2637501d482142719ebc0dbf17826685</Anchor>
+    <Abstract>Relation types for which related words are available.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNRelatedWordObject</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_object.html</Path>
+    <Abstract>A reference to a related word, including meta-data on the type of relation.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithWord:relationType:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_object.html</Path>
+    <Anchor>abc488f1fe3f32d7c340d0eadc5399fef</Anchor>
+    <Abstract>Initialize a related word entry with the given word string and relation type.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>relatedWordObjectWithWord:relationType:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_object.html</Path>
+    <Anchor>a821c165d39e40d23106bb3286297b939</Anchor>
+    <Abstract>Create and initialize a related word entry with the given word string and relation type...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>word</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_object.html</Path>
+    <Anchor>a8e5e4dc6d61b1e7cc0f0930eb6dee84b</Anchor>
+    <Abstract>The word&amp;#39;s string value.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>relationType</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_object.html</Path>
+    <Anchor>a3fb18b0a7204c583e04c9a36fd325108</Anchor>
+    <Abstract>The word&amp;#39;s relation to the original word.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNRelatedWordType</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_type.html</Path>
+    <Abstract>A word relation type, such as synonyms, antonyms, etc.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithTypeName:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_type.html</Path>
+    <Anchor>a9e386778ce90f8d0cfb03cc25a704aad</Anchor>
+    <Abstract>Create and initialize relation type with its canonical Wordnik-assigned name.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>synonym</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_type.html</Path>
+    <Anchor>ab5eb2ca8db4bbc739af0b4c15a042f15</Anchor>
+    <Abstract>Return the synonym word relationship type.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>antonym</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_type.html</Path>
+    <Anchor>a3031f44e1b792f6effbe092850e997bb</Anchor>
+    <Abstract>Return the synonym word relationship type.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>form</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_type.html</Path>
+    <Anchor>a040ac74b4d16605aa7ff83ca99671175</Anchor>
+    <Abstract>Return the form word relationship type.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>hyponym</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_type.html</Path>
+    <Anchor>ae7356cc9f4952424dab1009042d6b2da</Anchor>
+    <Abstract>Return the hyponym word relationship type.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>variant</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_type.html</Path>
+    <Anchor>ac360829ab9791c80a677028dd085f7f6</Anchor>
+    <Abstract>Return the variant word relationship type.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>verbStem</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_type.html</Path>
+    <Anchor>a4950783a16ed14add0322b346a6a7fb7</Anchor>
+    <Abstract>Return the verb stem word relationship type.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>verbForm</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_type.html</Path>
+    <Anchor>a7f59693f8e46a75ad65cb6e678881a54</Anchor>
+    <Abstract>Return the verb form word relationship type.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>crossReference</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_type.html</Path>
+    <Anchor>a131d97d6efd735cc028f272394a3fd05</Anchor>
+    <Abstract>Return the cross-reference word relationship type.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sameContext</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_type.html</Path>
+    <Anchor>ae75ca807eaa48856285f1d4242f28dd5</Anchor>
+    <Abstract>Return the same context word relationship type.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>relatedWordTypeWithName:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_type.html</Path>
+    <Anchor>a82ea1f225b69586fe1b226900ce15e2c</Anchor>
+    <Abstract>Create and initialize relation type with its canonical Wordnik-assigned name.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>name</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_related_word_type.html</Path>
+    <Anchor>a53dd4235001ff556f233a75d56cfdfde</Anchor>
+    <Abstract>Canonical Wordnik word relation type name.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNRequestTicket</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_request_ticket.html</Path>
+    <Abstract>A generic ticket for monitoring asynchronous requests.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithCancelBlock:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_request_ticket.html</Path>
+    <Anchor>adf52254feeabd680ca4cedfbc33fd763</Anchor>
+    <Abstract>Initialize a new ticket with the provided cancellation block.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>cancel</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_request_ticket.html</Path>
+    <Anchor>a3dcd6e2a11c51a6ba6d3ec4d3c3a61c2</Anchor>
+    <Abstract>Cancel the asynchronous request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>emptyTicket</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_request_ticket.html</Path>
+    <Anchor>a6693f344cec38cf7b4fb58b2b644b3de</Anchor>
+    <Abstract>Return an empty request ticket.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ticketWithCancelBlock:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_request_ticket.html</Path>
+    <Anchor>ab027170efbc1d790bfdd9b20b9bff9ed</Anchor>
+    <Abstract>Create a new ticket with the provided cancellation block.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNSpellingSuggestion</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_spelling_suggestion.html</Path>
+    <Abstract>An alternative word spelling suggestion.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithWord:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_spelling_suggestion.html</Path>
+    <Anchor>aae1c6c17c40431af84fdfc4b0960894e</Anchor>
+    <Abstract>Initialize a new spelling suggestion instance.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>suggestionWithWord:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_spelling_suggestion.html</Path>
+    <Anchor>a18e7103104acd3e07e1fb0c91722e766</Anchor>
+    <Abstract>Create and initialize a new spelling suggestion instance.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>word</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_spelling_suggestion.html</Path>
+    <Anchor>a42ccd1f23128aab2a35a2b66191ed5be</Anchor>
+    <Abstract>A suggested alternative word.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNTextPronunciation</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_text_pronunciation.html</Path>
+    <Abstract>A text pronunciation.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithPronunciationString:type:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_text_pronunciation.html</Path>
+    <Anchor>a21ecda739ea06093714a6088f383d062</Anchor>
+    <Abstract>Initialize a new text pronunciation instance with the provided pronunciationString and type...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pronunciationWithPronunciationString:type:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_text_pronunciation.html</Path>
+    <Anchor>acf3dd4d7693e92fdd3d330cecf9aaa04</Anchor>
+    <Abstract>Create and initialize a new text pronunciation instance with the provided pronunciationString and typ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pronunciationString</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_text_pronunciation.html</Path>
+    <Anchor>a4a07dc34892c117d44d5c7260b551fd0</Anchor>
+    <Abstract>The pronunciation&amp;#39;s string value.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pronunciationType</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_text_pronunciation.html</Path>
+    <Anchor>a121e513a93a97fff33a6b86e0b1da51e</Anchor>
+    <Abstract>The pronunciation type.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNTextPronunciationType</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_text_pronunciation_type.html</Path>
+    <Abstract>A text pronunciation type.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithName:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_text_pronunciation_type.html</Path>
+    <Anchor>affebb1e92e2f36b33e8f1895a9f0580d</Anchor>
+    <Abstract>Initialize a new pronunciation type instance with the provided canonical Wordnik type name...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>gcideDiacritical</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_text_pronunciation_type.html</Path>
+    <Anchor>a65116e55ba55779b4df5d931d2156a6c</Anchor>
+    <Abstract>Return the gcide-diacritical pronunciation type.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>arpabet</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_text_pronunciation_type.html</Path>
+    <Anchor>ae98ce781e76d0528a079136a950a980c</Anchor>
+    <Abstract>Return the arpabet pronunciation type.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>typeWithName:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_text_pronunciation_type.html</Path>
+    <Anchor>a4ecfc6dc201636202e8d80856ee96f0f</Anchor>
+    <Abstract>Create and initialize a new pronunciation type instance with the provided canonical Wordnik type name...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>name</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_text_pronunciation_type.html</Path>
+    <Anchor>a8084d1e691e9096180abf5e7e1973a99</Anchor>
+    <Abstract>Text pronunciation type name.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNUsageFrequency</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_usage_frequency.html</Path>
+    <Abstract>The frequency with which a given word appears in the source corpus, by year.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithYear:usageCount:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_usage_frequency.html</Path>
+    <Anchor>afe7b88a63a798662e0bc888134e015c5</Anchor>
+    <Abstract>Initialize a new word frequency entry with a year and usage count for that year.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wordFrequencyWithYear:usageCount:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_usage_frequency.html</Path>
+    <Anchor>a6d3522c3b8fe1393fff2d23a628b3603</Anchor>
+    <Abstract>Create and initialize a new word frequency entry with a year and usage count for that year...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>usageCount</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_usage_frequency.html</Path>
+    <Anchor>aeccd11658bf6dd70e847883e03846536</Anchor>
+    <Abstract>Word usage count for a given year.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>year</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_usage_frequency.html</Path>
+    <Anchor>ac92c8557c907adca130cb3ef4211f8df</Anchor>
+    <Abstract>Year for this usage count.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNUsageFrequencyTimeline</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_usage_frequency_timeline.html</Path>
+    <Abstract>A collection of word usage frequencies, ordered by year.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithWordFrequenciesFromArray:unknownYearUsageCount:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_usage_frequency_timeline.html</Path>
+    <Anchor>ac682d3efd2f4e9b394f1d93769f675a5</Anchor>
+    <Abstract>Initialize a new frequency timeline with the provided ordered array of word frequencies.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>frequencyTimelineWithWordFrequenciesFromArray:unknownYearUsageCount:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_usage_frequency_timeline.html</Path>
+    <Anchor>a32ecbc8f98546dd028adc9465ad99e72</Anchor>
+    <Abstract>Create and initialize a new frequency timeline with the provided ordered array of word frequencies...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wordFrequencies</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_usage_frequency_timeline.html</Path>
+    <Anchor>a978a5480674a719169f6af2ce515c11a</Anchor>
+    <Abstract>Word frequency, ordered by year (oldest first)</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>totalUsageCount</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_usage_frequency_timeline.html</Path>
+    <Anchor>afbbca52692a16c9203ab758ffba6517e</Anchor>
+    <Abstract>Total word usage count for all years, not including unknown years.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>unknownYearUsageCount</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_usage_frequency_timeline.html</Path>
+    <Anchor>a26fbc4430c8181d3fec6b6b88a1aa1a8</Anchor>
+    <Abstract>Usage count for unknown years.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNWordBigramRequest</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_bigram_request.html</Path>
+    <Abstract>A word bigram phrase request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>init</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_bigram_request.html</Path>
+    <Anchor>a981de4da3d9e6cb826d648230d6a34b0</Anchor>
+    <Abstract>Initialize a new bigram phrase request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithMaxResultCount:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_bigram_request.html</Path>
+    <Anchor>ad2148695fbdce728ffff09cfbcddb2ef</Anchor>
+    <Abstract>Initialize a new bigram phrase definition request with the provided maximum result count...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>request</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_bigram_request.html</Path>
+    <Anchor>ad99be8ec6f451c059f60ad50f66e5cde</Anchor>
+    <Abstract>Create and initialize a new bigram phrase request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>requestWithMaxResultCount:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_bigram_request.html</Path>
+    <Anchor>a25e86baca602bad7beb3e316ff8bfe0c</Anchor>
+    <Abstract>Create and initialize a new bigram phrase definition request with the provided maximum result count...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>maxResultCount</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_bigram_request.html</Path>
+    <Anchor>a2d36b1713f8c30ac8c86ed5fe4c25312</Anchor>
+    <Abstract>The maximum number of bigrams to return, or WNUnlimitedResultLength for no limit.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNWordDataSource</Name>
+      <APILanguage>c</APILanguage>
+      <Type>intf</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_word_data_source-p.html</Path>
+    <Abstract>A generic asynchronous data source for performing wordnik lookups.</Abstract>
+    <DeclaredIn>WNWordDataSource.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wordResponseWithWord:listener:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_word_data_source-p.html</Path>
+    <Anchor>a96da7206dfb9e64862148b32dac036ae</Anchor>
+    <Abstract>Perform an asynchronous lookup of the provided word, providing the WNWordResult to the given WNWordDa...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNWordDataSourceListener</Name>
+      <APILanguage>c</APILanguage>
+      <Type>intf</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_word_data_source_listener-p.html</Path>
+    <Abstract>Implement the WNWordDataSourceListener protocol to receive asynchronous results from WNWordDataSource...</Abstract>
+    <DeclaredIn>WNWordDataSource.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dataSource:didReceiveWordResponse:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_word_data_source_listener-p.html</Path>
+    <Anchor>a5412c07a9cb270e108c26536a3b87aa5</Anchor>
+    <Abstract>Called when a successful word response has been received.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dataSource:didFailWithError:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>intfm</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_word_data_source_listener-p.html</Path>
+    <Anchor>a93b21f4ecd22bf2322a82de7cb03bb3f</Anchor>
+    <Abstract>Called when word lookup fails.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNWordDefinitionRequest</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_definition_request.html</Path>
+    <Abstract>A word definition request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithDictionary:partsOfSpeech:maxResultCount:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_definition_request.html</Path>
+    <Anchor>a209167370d0abc217a9d970c3885f5cb</Anchor>
+    <Abstract>Initialize a new dictionary definition request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>requestWithDictionary:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_definition_request.html</Path>
+    <Anchor>a58bd9cf8b3dc419beff2575fca9c9830</Anchor>
+    <Abstract>Create and initialize a new dictionary definition request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>requestWithDictionary:maxResultCount:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_definition_request.html</Path>
+    <Anchor>aaa56a957c607ad6fe5a3fd82813a0ab3</Anchor>
+    <Abstract>Create and initialize a new dictionary definition request with the provided maximum result count...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>requestWithDictionary:partsOfSpeech:maxResultCount:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_definition_request.html</Path>
+    <Anchor>af9b3953aba8ce8176d9548e9494b1a95</Anchor>
+    <Abstract>Create and initialize a new dictionary definition request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNWordElementRequest</Name>
+      <APILanguage>c</APILanguage>
+      <Type>intf</Type>
+    </TokenIdentifier>
+    <Path>protocol_w_n_word_element_request-p.html</Path>
+    <Abstract>A WNWordElementRequest specifies a specific word element to be fetched from a server or other data so...</Abstract>
+    <DeclaredIn>WNWordElementRequest.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNWordExampleRequest</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_example_request.html</Path>
+    <Abstract>A word example sentence request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>init</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_example_request.html</Path>
+    <Anchor>a5119b865e9d8808403df588b0614fd5d</Anchor>
+    <Abstract>Initialize a new example sentence request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>request</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_example_request.html</Path>
+    <Anchor>a66b1edfe0a5b4c9753c485218fe8151c</Anchor>
+    <Abstract>Create and initialize a new example sentence request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNWordListCreateRequest</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_create_request.html</Path>
+    <Abstract>A word list creation request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithListName:description:accessType:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_create_request.html</Path>
+    <Anchor>a89033abed48995e6369ea42419830d75</Anchor>
+    <Abstract>Initialize a new word list creation request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>requestWithListName:description:accessType:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_create_request.html</Path>
+    <Anchor>a07ce1fd32a0c2e27aa8d27ec5099a144</Anchor>
+    <Abstract>Create and initialize a new word list creation request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>name</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_create_request.html</Path>
+    <Anchor>a46020be35948034b3aef6d4d5eb0f91c</Anchor>
+    <Abstract>Word list name.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>description</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_create_request.html</Path>
+    <Anchor>a49ddddf12c031192aa0b1316f809d033</Anchor>
+    <Abstract>Word list description.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>accessType</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_create_request.html</Path>
+    <Anchor>a32c0b79ad315c2c69eedb141f15aad63</Anchor>
+    <Abstract>Word list access type.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNWordListCreateResponse</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_create_response.html</Path>
+    <Abstract>A list creation response.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithListInfo:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_create_response.html</Path>
+    <Anchor>ad70a84874807ab62d00e9729eed2c143</Anchor>
+    <Abstract>Initialize a new list creation response.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>responseWithListInfo:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_create_response.html</Path>
+    <Anchor>a14b6cac7c70f46d7f309457acc485135</Anchor>
+    <Abstract>Create and initialize a new list creation response.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>listInfo</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_create_response.html</Path>
+    <Anchor>a5a83f88fdc59ba95ce22082aa8dcbd24</Anchor>
+    <Abstract>The server-supplied list information.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNWordListIdentifier</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_identifier.html</Path>
+    <Abstract>A Wordnik list unique identifier.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithString:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_identifier.html</Path>
+    <Anchor>a3b3c347451c9dac8e4afe462949ddfd2</Anchor>
+    <Abstract>Initialize a new Wordnik list identifier instance with the provided string value.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>identifierWithString:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_identifier.html</Path>
+    <Anchor>ad98218e67f522826661569b2c829f9d1</Anchor>
+    <Abstract>Create and initialize a new Wordnik list identifier instance with the provided string value...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stringValue</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_identifier.html</Path>
+    <Anchor>a9b431cbc53f33fc0d87580f1b21be980</Anchor>
+    <Abstract>The identifier&amp;#39;s string value.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNWordListInfo</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_info.html</Path>
+    <Abstract>A Wordnik list information record.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithIdentifier:name:description:creationDate:modificationDate:wordCount:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_info.html</Path>
+    <Anchor>a05e7407ab4d18a03ac9aeacad6737919</Anchor>
+    <Abstract>Initialize a new word list info record.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>infoWithIdentifier:name:description:creationDate:modificationDate:wordCount:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_info.html</Path>
+    <Anchor>a926052cc35691f045bc7f74034c30482</Anchor>
+    <Abstract>Create and initialize a new word list info record.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>identifier</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_info.html</Path>
+    <Anchor>aefa7d870314af4c2df44762847b4712c</Anchor>
+    <Abstract>The list&amp;#39;s unique identifier.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>name</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_info.html</Path>
+    <Anchor>a42476950296c27b54d6b545de744fc1a</Anchor>
+    <Abstract>The list&amp;#39;s name.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>description</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_info.html</Path>
+    <Anchor>a2720c5171d3eba57cc20d43a6e6264ac</Anchor>
+    <Abstract>The list&amp;#39;s description.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>creationDate</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_info.html</Path>
+    <Anchor>afbc52015d1ee02e0ee4e81b848c96422</Anchor>
+    <Abstract>The list&amp;#39;s creation date.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>modificationDate</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_info.html</Path>
+    <Anchor>a3a78f15edc46176f7846598b96940e06</Anchor>
+    <Abstract>The list&amp;#39;s last modification date.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wordCount</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_list_info.html</Path>
+    <Anchor>a0ea592942351d6024231a89967f690f6</Anchor>
+    <Abstract>The number of words in the list.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNWordNetworkDataSource</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_network_data_source.html</Path>
+    <Abstract>An implementation of the WNWordDataSource protocol that provides support for fetching word data from ...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithWordnikClient:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_network_data_source.html</Path>
+    <Anchor>addb3a318fef37df823f30b0f3c310f58</Anchor>
+    <Abstract>Initialize a new network data source instance.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wordnikClient</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_network_data_source.html</Path>
+    <Anchor>a508b9d2098ea0af6f4ec62c6bb8ba639</Anchor>
+    <Abstract>The Wordnik client used during initialization.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNWordObject</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_object.html</Path>
+    <Abstract>A Wordnik word record.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithWord:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_object.html</Path>
+    <Anchor>a63b71d448a5ebd92ba656f0f302a6430</Anchor>
+    <Abstract>Initialize a new word record.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithWord:definitions:examples:relatedWords:usageFrequencyTimeline:textPronunciations:bigrams:audioFileMetadata:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_object.html</Path>
+    <Anchor>abed4221302b13856e66345d8aa7bf7c8</Anchor>
+    <Abstract>Initialize a new word record.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wordObjectByAppendingElementsFromWord:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_object.html</Path>
+    <Anchor>ac4185a1e84eb41420243a8bc8832d13d</Anchor>
+    <Abstract>Return a new Word that is a copy of the receiving word, with all elements contained in otherWord appe...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wordObjectWithWord:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_object.html</Path>
+    <Anchor>af2b3c709b7a93dd20dc226b53c8a371d</Anchor>
+    <Abstract>Create and initialize a new word record.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wordObjectWithWord:definitions:examples:relatedWords:usageFrequencyTimeline:textPronunciations:bigrams:audioFileMetadata:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_object.html</Path>
+    <Anchor>a441da17fd11f1bb879f61e894d1641b5</Anchor>
+    <Abstract>Create and initialize a new word record.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>word</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_object.html</Path>
+    <Anchor>a272ebd8147bc2f8d430020413461587b</Anchor>
+    <Abstract>The word&amp;#39;s string value.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>definitions</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_object.html</Path>
+    <Anchor>ac13d96184c9e4289f9a0f4cde6ba8f21</Anchor>
+    <Abstract>The word&amp;#39;s definition lists, if available.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>bigrams</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_object.html</Path>
+    <Anchor>a9c48e9d7017e6eb8e0d904dcb6ed9549</Anchor>
+    <Abstract>The word&amp;#39;s associated bigram phrases as an ordered array of WNBigram instances, if available.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>examples</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_object.html</Path>
+    <Anchor>a733f9a98f495a562dc9fcb5de1f2080e</Anchor>
+    <Abstract>Example sentences as an ordered array of WNExample instances, if available.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>relatedWords</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_object.html</Path>
+    <Anchor>a805e373225b86f488edba8660981759d</Anchor>
+    <Abstract>Related word list, if available.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>usageFrequencyTimeline</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_object.html</Path>
+    <Anchor>a5aa0d0342fa07dbb8aed36ce3749fdee</Anchor>
+    <Abstract>Word usage frequency timeline, if available.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>textPronunciations</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_object.html</Path>
+    <Anchor>a3c1f50f3a7b32a1901ee0ba665968e2c</Anchor>
+    <Abstract>Text pronunciations as an array of WNTextPronunciation instances, if available.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>audioFileMetadata</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_object.html</Path>
+    <Anchor>ae1632fe9c9dac113264016ea35d15649</Anchor>
+    <Abstract>Audio file metadata as an array of WNAudioFileMetadata objects.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNWordOfTheDayResponse</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_of_the_day_response.html</Path>
+    <Abstract>A word of the day response.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithWord:publishDate:definitions:usageExamples:notes:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_of_the_day_response.html</Path>
+    <Anchor>a10b0db9b623c5377d18c027e7f5febf2</Anchor>
+    <Abstract>Initialize a new word of the day response.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>responseWithWord:publishDate:definitions:usageExamples:notes:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_of_the_day_response.html</Path>
+    <Anchor>a2da211279dcbcff6f877df8d749c8bb5</Anchor>
+    <Abstract>Create and initialize a new word of the day response.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>word</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_of_the_day_response.html</Path>
+    <Anchor>a61505115b04653f909574be3e150f09a</Anchor>
+    <Abstract>The word string.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>publishDate</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_of_the_day_response.html</Path>
+    <Anchor>a542df68ea1fead6fad40efee85fd298a</Anchor>
+    <Abstract>The date the entry was published.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>definitions</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_of_the_day_response.html</Path>
+    <Anchor>a23ec94ab20a8962293786cc5153a53ea</Anchor>
+    <Abstract>An ordered array of definition objects, formatted for display.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>usageExamples</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_of_the_day_response.html</Path>
+    <Anchor>a57bebc670e9032f52b69666ebc20df2a</Anchor>
+    <Abstract>An ordered array of usage examples, formatted for display.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>notes</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_of_the_day_response.html</Path>
+    <Anchor>abb88a73a2c44129cd821becf7146f715</Anchor>
+    <Abstract>An ordered array of notes, formatted for display.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNWordRelatedWordsRequest</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_related_words_request.html</Path>
+    <Abstract>A related word request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>init</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_related_words_request.html</Path>
+    <Anchor>a83aee3b596df8e0b21e741c878d23e58</Anchor>
+    <Abstract>Initialize a new related word request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithRelationTypes:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_related_words_request.html</Path>
+    <Anchor>ad39f4cd8c0f9259779797f900f0f53d4</Anchor>
+    <Abstract>Create and initialize a new related word request for the given relation types.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithRelationTypes:maxResultCount:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_related_words_request.html</Path>
+    <Anchor>aefddbf8aae247db7dfd7d0ec993db70a</Anchor>
+    <Abstract>Create and initialize a new related word request for the given relation types.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithRelationTypes:partsOfSpeech:dictionary:maxResultCount:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_related_words_request.html</Path>
+    <Anchor>afb5511da88d81cb34d04a501834b5185</Anchor>
+    <Abstract>Initialize a new related word request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>request</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_related_words_request.html</Path>
+    <Anchor>adcf9faa63d7869e2a780978cd149e796</Anchor>
+    <Abstract>Create and initialize a new related word request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>requestWithMaxResultCount:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_related_words_request.html</Path>
+    <Anchor>a5cd03afd12f5db1bbdf931b4f6054563</Anchor>
+    <Abstract>Create and initialize a new related word request with the provided maximum result count...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>requestWithRelationTypes:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_related_words_request.html</Path>
+    <Anchor>a55dd1569b12475470528a40593934a34</Anchor>
+    <Abstract>Create and initialize a new related word request for the given relation types.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>requestWithRelationTypes:maxResultCount:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_related_words_request.html</Path>
+    <Anchor>a790eefca3ae883cb2a8db5b867a587f5</Anchor>
+    <Abstract>Create and initialize a new related word request for the given relation types.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>requestWithRelationTypes:partsOfSpeech:dictionary:maxResultCount:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_related_words_request.html</Path>
+    <Anchor>acca787d54c0a02d760089e9c0868cdc8</Anchor>
+    <Abstract>Create and initialize a new related word request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNWordRequest</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_request.html</Path>
+    <Abstract>A word API request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithWord:elementRequests:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_request.html</Path>
+    <Anchor>ac63de615701e8d34d1c876716d10173d</Anchor>
+    <Abstract>Initialize new word request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithWord:requestCanonicalForm:requestSpellingSuggestions:elementRequests:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_request.html</Path>
+    <Anchor>a1faf91bc1a451a7ec8801061c107ffa4</Anchor>
+    <Abstract>Initialize a new word request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>requestWithWord:elementRequests:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_request.html</Path>
+    <Anchor>a4a8214e76f1332864c56419240d7e8ed</Anchor>
+    <Abstract>Create and initialize new word request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>requestWithWord:requestCanonicalForm:requestSpellingSuggestions:elementRequests:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_request.html</Path>
+    <Anchor>a182d7581738a0b50c940549b219f2720</Anchor>
+    <Abstract>Create and initialize new word request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>word</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_request.html</Path>
+    <Anchor>aa8f0c732cdd5e600685974f06bdede30</Anchor>
+    <Abstract>The requested word.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>requestSpellingSuggestions</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_request.html</Path>
+    <Anchor>a90acc8f73e418003bb7b769f3d0eabbd</Anchor>
+    <Abstract>Indicates whether spelling suggestions should be requested for this word.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>requestCanonicalForm</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_request.html</Path>
+    <Anchor>ae97b0ee6893127bff0664d3da22dcb4f</Anchor>
+    <Abstract>Indicates whether the canonical form of the word should be automatically selected; eg...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>elementRequests</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_request.html</Path>
+    <Anchor>a6213b466a97e828e2dc02fa4821ff297</Anchor>
+    <Abstract>The set of word entry elements to be fetched, as an ordered array of WNWordElementRequest instances...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNWordResponse</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_response.html</Path>
+    <Abstract>A word API response, including alternative spelling suggestions if the word could not be found...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithWord:spellingSuggestions:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_response.html</Path>
+    <Anchor>ab4b5a65ac54f5bf375fe84268ff0e5ad</Anchor>
+    <Abstract>Initialize a new response instance with the provided word and spelling suggestions.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>responseWithWord:spellingSuggestions:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_response.html</Path>
+    <Anchor>a3a066b60e04d847693dfd93caba339d8</Anchor>
+    <Abstract>Create and initialize a new response instance with the provided word and spelling suggestions...</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wordObject</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_response.html</Path>
+    <Anchor>afbd66451f7c2d6c2934b5f4ad9878b07</Anchor>
+    <Abstract>The returned word record.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>spellingSuggestions</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_response.html</Path>
+    <Anchor>a2cfc9c96467dc829216df436df17ea8a</Anchor>
+    <Abstract>Alternative spelling suggestions as an ordered array of WNSpellingSuggestion instances.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNWordSearchRequest</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_search_request.html</Path>
+    <Abstract>A word autocompletion request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithWordFragment:skip:limit:includePartOfSpeech:excludePartOfSpeech:minCorpusCount:maxCorpusCount:minDictionaryCount:maxDictionaryCount:minLength:maxLength:resultCollation:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_search_request.html</Path>
+    <Anchor>a842a1131b30fe0425498733e829a7756</Anchor>
+    <Abstract>Initialize a new word autocomplete request using the default request parameters.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>requestWithWordFragment:skip:limit:includePartOfSpeech:excludePartOfSpeech:minCorpusCount:maxCorpusCount:minDictionaryCount:maxDictionaryCount:minLength:maxLength:resultCollation:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_search_request.html</Path>
+    <Anchor>a311f743803947360ae1920ce84b6df03</Anchor>
+    <Abstract>Create and initialize a new word autocomplete request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wordFragment</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_search_request.html</Path>
+    <Anchor>ab32846c1a4e38c00dbef0c593c9a0494</Anchor>
+    <Abstract>The word fragment to be autocompleted.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>skip</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_search_request.html</Path>
+    <Anchor>a021564373a98f63838c4486a17922d5d</Anchor>
+    <Abstract>The offset of the results to be returned.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>resultCollation</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_search_request.html</Path>
+    <Anchor>acd13f000baea24afa5464382b6121e07</Anchor>
+    <Abstract>The collation to use for the returned results.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNWordSearchResponse</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_search_response.html</Path>
+    <Abstract>A word autocompletion response.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>initWithWords:totalResults:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_search_response.html</Path>
+    <Anchor>aa8084c6a52cee2ae33033131033a14f2</Anchor>
+    <Abstract>Initialize a new autocomplete response.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>responseWithWords:totalResults:</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_search_response.html</Path>
+    <Anchor>a77a66d89945029ce61ee6c6d9d75eeaa</Anchor>
+    <Abstract>Create and initialize a new autocomplete response.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>words</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_search_response.html</Path>
+    <Anchor>a3fd33091a849b78db989af388593d868</Anchor>
+    <Abstract>Matching word strings.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>totalResults</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instp</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_search_response.html</Path>
+    <Anchor>abcdb5d6080f974989c8d6485058ab345</Anchor>
+    <Abstract>The total number of autocomplete matches.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNWordTextPronunciationRequest</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_text_pronunciation_request.html</Path>
+    <Abstract>A word text pronunciation request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>init</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_text_pronunciation_request.html</Path>
+    <Anchor>ae55b4f89458f2ef07578190180772291</Anchor>
+    <Abstract>Initialize a new word pronunciation request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>request</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_text_pronunciation_request.html</Path>
+    <Anchor>afd3dbb71f786e8b7a448618c8cc69772</Anchor>
+    <Abstract>Create and initialize a new word pronunciation request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WNWordUsageFrequencyRequest</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_usage_frequency_request.html</Path>
+    <Abstract>A word usage frequency request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>init</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>instm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_usage_frequency_request.html</Path>
+    <Anchor>a5ff9664a92d6534c64e86cd69b7abae0</Anchor>
+    <Abstract>Initialize a new word usage frequency request.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>request</Name>
+      <APILanguage>occ</APILanguage>
+      <Type>clm</Type>
+    </TokenIdentifier>
+    <Path>interface_w_n_word_usage_frequency_request.html</Path>
+    <Anchor>af2de338063103235daa6ea9f36400a76</Anchor>
+    <Abstract>Create and initialize a new word usage frequency request.</Abstract>
+  </Token>
+</Tokens>

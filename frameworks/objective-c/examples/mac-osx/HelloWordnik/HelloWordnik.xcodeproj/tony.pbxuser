@@ -1,0 +1,180 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = EA3FE235131ACE4D00188533 /* HelloWordnik */;
+		activeTarget = 8DD76F960486AA7600D96B5E /* HelloWordnik */;
+		breakpoints = (
+		);
+		codeSenseManager = EA3FE23B131ACE6B00188533 /* Code sense */;
+		executables = (
+			EA3FE235131ACE4D00188533 /* HelloWordnik */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					552,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 320541425;
+			PBXWorkspaceStateSaveDate = 320541425;
+		};
+		perUserProjectItems = {
+			EA22D101131B131900F1E5F6 /* PBXTextBookmark */ = EA22D101131B131900F1E5F6 /* PBXTextBookmark */;
+			EA3FE28D131ADBDD00188533 /* PBXTextBookmark */ = EA3FE28D131ADBDD00188533 /* PBXTextBookmark */;
+			EA3FE28F131ADBDD00188533 /* PBXTextBookmark */ = EA3FE28F131ADBDD00188533 /* PBXTextBookmark */;
+			EA3FE291131ADBDD00188533 /* PBXTextBookmark */ = EA3FE291131ADBDD00188533 /* PBXTextBookmark */;
+			EA40157E131B04A60071ED2F /* PBXTextBookmark */ = EA40157E131B04A60071ED2F /* PBXTextBookmark */;
+		};
+		sourceControlManager = EA3FE23A131ACE6B00188533 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* HelloWordnik.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {733, 611}}";
+			sepNavSelRange = "{139, 0}";
+			sepNavVisRange = "{0, 1356}";
+		};
+	};
+	8DD76F960486AA7600D96B5E /* HelloWordnik */ = {
+		activeExec = 0;
+		executables = (
+			EA3FE235131ACE4D00188533 /* HelloWordnik */,
+		);
+	};
+	EA22D101131B131900F1E5F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* HelloWordnik.m */;
+		name = "HelloWordnik.m: 7";
+		rLen = 0;
+		rLoc = 139;
+		rType = 0;
+		vrLen = 1356;
+		vrLoc = 0;
+	};
+	EA3FE235131ACE4D00188533 /* HelloWordnik */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = HelloWordnik;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	EA3FE23A131ACE6B00188533 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	EA3FE23B131ACE6B00188533 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	EA3FE28D131ADBDD00188533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EA3FE28E131ADBDD00188533 /* WNWordRequest.h */;
+		name = "WNWordRequest.h: 16";
+		rLen = 38;
+		rLoc = 456;
+		rType = 0;
+		vrLen = 1147;
+		vrLoc = 0;
+	};
+	EA3FE28E131ADBDD00188533 /* WNWordRequest.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = WNWordRequest.h;
+		path = "/Users/Tony/dev/projects/wordnik/obj-c-sdk/build/Release-MacOSX/Wordnik.framework/Versions/A/Headers/WNWordRequest.h";
+		sourceTree = "<absolute>";
+	};
+	EA3FE28F131ADBDD00188533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EA3FE290131ADBDD00188533 /* WNDictionary.h */;
+		name = "WNDictionary.h: 8";
+		rLen = 49;
+		rLoc = 98;
+		rType = 0;
+		vrLen = 906;
+		vrLoc = 0;
+	};
+	EA3FE290131ADBDD00188533 /* WNDictionary.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = WNDictionary.h;
+		path = "/Users/Tony/dev/projects/wordnik/obj-c-sdk/build/Release-MacOSX/Wordnik.framework/Versions/A/Headers/WNDictionary.h";
+		sourceTree = "<absolute>";
+	};
+	EA3FE291131ADBDD00188533 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EA3FE292131ADBDD00188533 /* WNDefinitionList.h */;
+		name = "WNDefinitionList.h: 38";
+		rLen = 63;
+		rLoc = 1196;
+		rType = 0;
+		vrLen = 1297;
+		vrLoc = 0;
+	};
+	EA3FE292131ADBDD00188533 /* WNDefinitionList.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = WNDefinitionList.h;
+		path = "/Users/Tony/dev/projects/wordnik/obj-c-sdk/build/Release-MacOSX/Wordnik.framework/Versions/A/Headers/WNDefinitionList.h";
+		sourceTree = "<absolute>";
+	};
+	EA40157E131B04A60071ED2F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* HelloWordnik.m */;
+		name = "HelloWordnik.m: 20";
+		rLen = 26;
+		rLoc = 796;
+		rType = 0;
+		vrLen = 1294;
+		vrLoc = 0;
+	};
+}

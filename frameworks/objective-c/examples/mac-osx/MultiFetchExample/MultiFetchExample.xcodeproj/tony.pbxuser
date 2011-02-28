@@ -1,0 +1,119 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = EA3FE2B0131ADC0200188533 /* MultiFetchExample */;
+		activeTarget = 8DD76F960486AA7600D96B5E /* MultiFetchExample */;
+		codeSenseManager = EA3FE2B6131ADC2000188533 /* Code sense */;
+		executables = (
+			EA3FE2B0131ADC0200188533 /* MultiFetchExample */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					577,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 320541332;
+			PBXWorkspaceStateSaveDate = 320541332;
+		};
+		perUserProjectItems = {
+			EA22D106131B133400F1E5F6 /* PBXTextBookmark */ = EA22D106131B133400F1E5F6 /* PBXTextBookmark */;
+			EA401570131B04A30071ED2F /* PBXTextBookmark */ = EA401570131B04A30071ED2F /* PBXTextBookmark */;
+		};
+		sourceControlManager = EA3FE2B5131ADC2000188533 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* MultiFetchExample.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {755, 624}}";
+			sepNavSelRange = "{63, 38}";
+			sepNavVisRange = "{0, 1288}";
+		};
+	};
+	8DD76F960486AA7600D96B5E /* MultiFetchExample */ = {
+		activeExec = 0;
+		executables = (
+			EA3FE2B0131ADC0200188533 /* MultiFetchExample */,
+		);
+	};
+	EA22D106131B133400F1E5F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* MultiFetchExample.m */;
+		name = "MultiFetchExample.m: 4";
+		rLen = 38;
+		rLoc = 63;
+		rType = 0;
+		vrLen = 1288;
+		vrLoc = 0;
+	};
+	EA3FE2B0131ADC0200188533 /* MultiFetchExample */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MultiFetchExample;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	EA3FE2B5131ADC2000188533 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	EA3FE2B6131ADC2000188533 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	EA401570131B04A30071ED2F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* MultiFetchExample.m */;
+		name = "MultiFetchExample.m: 17";
+		rLen = 34;
+		rLoc = 711;
+		rType = 0;
+		vrLen = 690;
+		vrLoc = 0;
+	};
+}
