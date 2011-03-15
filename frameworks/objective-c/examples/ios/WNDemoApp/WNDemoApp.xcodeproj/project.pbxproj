@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		EA4C9A18132F5B0400B76158 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4C99F6132F5B0400B76158 /* MainWindow.xib */; };
+		EA4C9A19132F5B0400B76158 /* WNDemoAllWordListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4C99F8132F5B0400B76158 /* WNDemoAllWordListsViewController.m */; };
+		EA4C9A1A132F5B0400B76158 /* WNDemoAllWordListsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4C99F9132F5B0400B76158 /* WNDemoAllWordListsViewController.xib */; };
+		EA4C9A1B132F5B0400B76158 /* WNDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4C99FB132F5B0400B76158 /* WNDemoAppDelegate.m */; };
+		EA4C9A1C132F5B0400B76158 /* WNDemoAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4C99FC132F5B0400B76158 /* WNDemoAppViewController.xib */; };
+		EA4C9A1D132F5B0400B76158 /* WNDemoAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4C99FE132F5B0400B76158 /* WNDemoAuthViewController.m */; };
+		EA4C9A1E132F5B0400B76158 /* WNDemoAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4C99FF132F5B0400B76158 /* WNDemoAuthViewController.xib */; };
+		EA4C9A1F132F5B0400B76158 /* WNDemoAutocompleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4C9A01132F5B0400B76158 /* WNDemoAutocompleteViewController.m */; };
+		EA4C9A20132F5B0400B76158 /* WNDemoAutocompleteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4C9A02132F5B0400B76158 /* WNDemoAutocompleteViewController.xib */; };
+		EA4C9A21132F5B0400B76158 /* WNDemoCatalogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4C9A04132F5B0400B76158 /* WNDemoCatalogViewController.m */; };
+		EA4C9A22132F5B0400B76158 /* WNDemoCatalogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4C9A05132F5B0400B76158 /* WNDemoCatalogViewController.xib */; };
+		EA4C9A23132F5B0400B76158 /* WNDemoCreateListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4C9A07132F5B0400B76158 /* WNDemoCreateListViewController.m */; };
+		EA4C9A24132F5B0400B76158 /* WNDemoCreateListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4C9A08132F5B0400B76158 /* WNDemoCreateListViewController.xib */; };
+		EA4C9A25132F5B0400B76158 /* WNDemoDeleteWordListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4C9A0A132F5B0400B76158 /* WNDemoDeleteWordListViewController.m */; };
+		EA4C9A26132F5B0400B76158 /* WNDemoDeleteWordListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4C9A0B132F5B0400B76158 /* WNDemoDeleteWordListViewController.xib */; };
+		EA4C9A27132F5B0400B76158 /* WNDemoModifyWordListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4C9A0D132F5B0400B76158 /* WNDemoModifyWordListViewController.m */; };
+		EA4C9A28132F5B0400B76158 /* WNDemoModifyWordListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4C9A0E132F5B0400B76158 /* WNDemoModifyWordListViewController.xib */; };
+		EA4C9A29132F5B0400B76158 /* WNDemoRandomWordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4C9A10132F5B0400B76158 /* WNDemoRandomWordsViewController.m */; };
+		EA4C9A2A132F5B0400B76158 /* WNDemoRandomWordsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4C9A11132F5B0400B76158 /* WNDemoRandomWordsViewController.xib */; };
+		EA4C9A2B132F5B0400B76158 /* WNDemoWordInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4C9A13132F5B0400B76158 /* WNDemoWordInfoViewController.m */; };
+		EA4C9A2C132F5B0400B76158 /* WNDemoWordInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4C9A14132F5B0400B76158 /* WNDemoWordInfoViewController.xib */; };
+		EA4C9A2D132F5B0400B76158 /* WNDemoWordOfTheDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4C9A16132F5B0400B76158 /* WNDemoWordOfTheDayViewController.m */; };
+		EA4C9A2E132F5B0400B76158 /* WNDemoWordOfTheDayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4C9A17132F5B0400B76158 /* WNDemoWordOfTheDayViewController.xib */; };
+		EA4C9A30132F5B2200B76158 /* WordnikUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4C9A2F132F5B2200B76158 /* WordnikUI.framework */; };
+		EA4C9A3A132F5B3400B76158 /* WordnikUI.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA4C9A2F132F5B2200B76158 /* WordnikUI.framework */; };
+		EA4C9A53132F5BE700B76158 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4C9A52132F5BE700B76158 /* CoreText.framework */; };
+		EA4C9A55132F5BE700B76158 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4C9A54132F5BE700B76158 /* libsqlite3.dylib */; };
+		EA4C9A5B132F5C0E00B76158 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4C9A5A132F5C0E00B76158 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA4C9A42132F5B6600B76158 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EA4C9A3A132F5B3400B76158 /* WordnikUI.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* WNDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WNDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* WNDemoApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNDemoApp_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* WNDemoApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WNDemoApp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		EA4C99F6132F5B0400B76158 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		EA4C99F7132F5B0400B76158 /* WNDemoAllWordListsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNDemoAllWordListsViewController.h; sourceTree = SOURCE_ROOT; };
+		EA4C99F8132F5B0400B76158 /* WNDemoAllWordListsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNDemoAllWordListsViewController.m; sourceTree = SOURCE_ROOT; };
+		EA4C99F9132F5B0400B76158 /* WNDemoAllWordListsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WNDemoAllWordListsViewController.xib; path = ../WNDemoAllWordListsViewController.xib; sourceTree = "<group>"; };
+		EA4C99FA132F5B0400B76158 /* WNDemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNDemoAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		EA4C99FB132F5B0400B76158 /* WNDemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNDemoAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		EA4C99FC132F5B0400B76158 /* WNDemoAppViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WNDemoAppViewController.xib; path = ../WNDemoAppViewController.xib; sourceTree = "<group>"; };
+		EA4C99FD132F5B0400B76158 /* WNDemoAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNDemoAuthViewController.h; sourceTree = SOURCE_ROOT; };
+		EA4C99FE132F5B0400B76158 /* WNDemoAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNDemoAuthViewController.m; sourceTree = SOURCE_ROOT; };
+		EA4C99FF132F5B0400B76158 /* WNDemoAuthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WNDemoAuthViewController.xib; path = ../WNDemoAuthViewController.xib; sourceTree = "<group>"; };
+		EA4C9A00132F5B0400B76158 /* WNDemoAutocompleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNDemoAutocompleteViewController.h; sourceTree = SOURCE_ROOT; };
+		EA4C9A01132F5B0400B76158 /* WNDemoAutocompleteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNDemoAutocompleteViewController.m; sourceTree = SOURCE_ROOT; };
+		EA4C9A02132F5B0400B76158 /* WNDemoAutocompleteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WNDemoAutocompleteViewController.xib; path = ../WNDemoAutocompleteViewController.xib; sourceTree = "<group>"; };
+		EA4C9A03132F5B0400B76158 /* WNDemoCatalogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNDemoCatalogViewController.h; sourceTree = SOURCE_ROOT; };
+		EA4C9A04132F5B0400B76158 /* WNDemoCatalogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNDemoCatalogViewController.m; sourceTree = SOURCE_ROOT; };
+		EA4C9A05132F5B0400B76158 /* WNDemoCatalogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WNDemoCatalogViewController.xib; path = ../WNDemoCatalogViewController.xib; sourceTree = "<group>"; };
+		EA4C9A06132F5B0400B76158 /* WNDemoCreateListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNDemoCreateListViewController.h; sourceTree = SOURCE_ROOT; };
+		EA4C9A07132F5B0400B76158 /* WNDemoCreateListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNDemoCreateListViewController.m; sourceTree = SOURCE_ROOT; };
+		EA4C9A08132F5B0400B76158 /* WNDemoCreateListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WNDemoCreateListViewController.xib; path = ../WNDemoCreateListViewController.xib; sourceTree = "<group>"; };
+		EA4C9A09132F5B0400B76158 /* WNDemoDeleteWordListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNDemoDeleteWordListViewController.h; sourceTree = SOURCE_ROOT; };
+		EA4C9A0A132F5B0400B76158 /* WNDemoDeleteWordListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNDemoDeleteWordListViewController.m; sourceTree = SOURCE_ROOT; };
+		EA4C9A0B132F5B0400B76158 /* WNDemoDeleteWordListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WNDemoDeleteWordListViewController.xib; path = ../WNDemoDeleteWordListViewController.xib; sourceTree = "<group>"; };
+		EA4C9A0C132F5B0400B76158 /* WNDemoModifyWordListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNDemoModifyWordListViewController.h; sourceTree = SOURCE_ROOT; };
+		EA4C9A0D132F5B0400B76158 /* WNDemoModifyWordListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNDemoModifyWordListViewController.m; sourceTree = SOURCE_ROOT; };
+		EA4C9A0E132F5B0400B76158 /* WNDemoModifyWordListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WNDemoModifyWordListViewController.xib; path = ../WNDemoModifyWordListViewController.xib; sourceTree = "<group>"; };
+		EA4C9A0F132F5B0400B76158 /* WNDemoRandomWordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNDemoRandomWordsViewController.h; sourceTree = SOURCE_ROOT; };
+		EA4C9A10132F5B0400B76158 /* WNDemoRandomWordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNDemoRandomWordsViewController.m; sourceTree = SOURCE_ROOT; };
+		EA4C9A11132F5B0400B76158 /* WNDemoRandomWordsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WNDemoRandomWordsViewController.xib; sourceTree = SOURCE_ROOT; };
+		EA4C9A12132F5B0400B76158 /* WNDemoWordInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNDemoWordInfoViewController.h; sourceTree = SOURCE_ROOT; };
+		EA4C9A13132F5B0400B76158 /* WNDemoWordInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNDemoWordInfoViewController.m; sourceTree = SOURCE_ROOT; };
+		EA4C9A14132F5B0400B76158 /* WNDemoWordInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WNDemoWordInfoViewController.xib; path = ../WNDemoWordInfoViewController.xib; sourceTree = "<group>"; };
+		EA4C9A15132F5B0400B76158 /* WNDemoWordOfTheDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNDemoWordOfTheDayViewController.h; sourceTree = SOURCE_ROOT; };
+		EA4C9A16132F5B0400B76158 /* WNDemoWordOfTheDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNDemoWordOfTheDayViewController.m; sourceTree = SOURCE_ROOT; };
+		EA4C9A17132F5B0400B76158 /* WNDemoWordOfTheDayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WNDemoWordOfTheDayViewController.xib; path = ../WNDemoWordOfTheDayViewController.xib; sourceTree = "<group>"; };
+		EA4C9A2F132F5B2200B76158 /* WordnikUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WordnikUI.framework; path = "../../../Wordnik WordKit 1.0/iOS Framework/WordnikUI.framework"; sourceTree = SOURCE_ROOT; };
+		EA4C9A3F132F5B6500B76158 /* WNAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNAdditions.h; sourceTree = "<group>"; };
+		EA4C9A52132F5BE700B76158 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		EA4C9A54132F5BE700B76158 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		EA4C9A5A132F5C0E00B76158 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				EA4C9A30132F5B2200B76158 /* WordnikUI.framework in Frameworks */,
+				EA4C9A53132F5BE700B76158 /* CoreText.framework in Frameworks */,
+				EA4C9A55132F5BE700B76158 /* libsqlite3.dylib in Frameworks */,
+				EA4C9A5B132F5C0E00B76158 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EA7BD3C9132F5CE4008611AE /* Main Catalog View */,
+				EA4C99FA132F5B0400B76158 /* WNDemoAppDelegate.h */,
+				EA4C99FB132F5B0400B76158 /* WNDemoAppDelegate.m */,
+				EA4C99FC132F5B0400B76158 /* WNDemoAppViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* WNDemoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				EA4C9A5A132F5C0E00B76158 /* SystemConfiguration.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* WNDemoApp_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C99F6132F5B0400B76158 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* WNDemoApp-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C9A2F132F5B2200B76158 /* WordnikUI.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				EA4C9A52132F5BE700B76158 /* CoreText.framework */,
+				EA4C9A54132F5BE700B76158 /* libsqlite3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA7BD3C9132F5CE4008611AE /* Main Catalog View */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C9A05132F5B0400B76158 /* WNDemoCatalogViewController.xib */,
+				EA4C9A03132F5B0400B76158 /* WNDemoCatalogViewController.h */,
+				EA4C9A04132F5B0400B76158 /* WNDemoCatalogViewController.m */,
+				EA7BD3CD132F5D34008611AE /* Authentication */,
+				EA7BD3CB132F5D14008611AE /* Word of the Day */,
+				EA7BD3CE132F5D60008611AE /* Random Words */,
+				EA7BD3CF132F5D70008611AE /* Word Info */,
+				EA7BD3CA132F5D02008611AE /* Word Lists */,
+				EA7BD3CC132F5D26008611AE /* Word Search */,
+				EA4C9A3F132F5B6500B76158 /* WNAdditions.h */,
+			);
+			name = "Main Catalog View";
+			sourceTree = "<group>";
+		};
+		EA7BD3CA132F5D02008611AE /* Word Lists */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C9A08132F5B0400B76158 /* WNDemoCreateListViewController.xib */,
+				EA4C9A0B132F5B0400B76158 /* WNDemoDeleteWordListViewController.xib */,
+				EA4C9A0E132F5B0400B76158 /* WNDemoModifyWordListViewController.xib */,
+				EA4C9A06132F5B0400B76158 /* WNDemoCreateListViewController.h */,
+				EA4C9A07132F5B0400B76158 /* WNDemoCreateListViewController.m */,
+				EA4C9A09132F5B0400B76158 /* WNDemoDeleteWordListViewController.h */,
+				EA4C9A0A132F5B0400B76158 /* WNDemoDeleteWordListViewController.m */,
+				EA4C9A0C132F5B0400B76158 /* WNDemoModifyWordListViewController.h */,
+				EA4C9A0D132F5B0400B76158 /* WNDemoModifyWordListViewController.m */,
+				EA4C99F9132F5B0400B76158 /* WNDemoAllWordListsViewController.xib */,
+				EA4C99F7132F5B0400B76158 /* WNDemoAllWordListsViewController.h */,
+				EA4C99F8132F5B0400B76158 /* WNDemoAllWordListsViewController.m */,
+			);
+			name = "Word Lists";
+			sourceTree = "<group>";
+		};
+		EA7BD3CB132F5D14008611AE /* Word of the Day */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C9A17132F5B0400B76158 /* WNDemoWordOfTheDayViewController.xib */,
+				EA4C9A15132F5B0400B76158 /* WNDemoWordOfTheDayViewController.h */,
+				EA4C9A16132F5B0400B76158 /* WNDemoWordOfTheDayViewController.m */,
+			);
+			name = "Word of the Day";
+			sourceTree = "<group>";
+		};
+		EA7BD3CC132F5D26008611AE /* Word Search */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C9A02132F5B0400B76158 /* WNDemoAutocompleteViewController.xib */,
+				EA4C9A00132F5B0400B76158 /* WNDemoAutocompleteViewController.h */,
+				EA4C9A01132F5B0400B76158 /* WNDemoAutocompleteViewController.m */,
+			);
+			name = "Word Search";
+			sourceTree = "<group>";
+		};
+		EA7BD3CD132F5D34008611AE /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C99FD132F5B0400B76158 /* WNDemoAuthViewController.h */,
+				EA4C99FE132F5B0400B76158 /* WNDemoAuthViewController.m */,
+				EA4C99FF132F5B0400B76158 /* WNDemoAuthViewController.xib */,
+			);
+			name = Authentication;
+			sourceTree = "<group>";
+		};
+		EA7BD3CE132F5D60008611AE /* Random Words */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C9A0F132F5B0400B76158 /* WNDemoRandomWordsViewController.h */,
+				EA4C9A10132F5B0400B76158 /* WNDemoRandomWordsViewController.m */,
+				EA4C9A11132F5B0400B76158 /* WNDemoRandomWordsViewController.xib */,
+			);
+			name = "Random Words";
+			sourceTree = "<group>";
+		};
+		EA7BD3CF132F5D70008611AE /* Word Info */ = {
+			isa = PBXGroup;
+			children = (
+				EA4C9A12132F5B0400B76158 /* WNDemoWordInfoViewController.h */,
+				EA4C9A13132F5B0400B76158 /* WNDemoWordInfoViewController.m */,
+				EA4C9A14132F5B0400B76158 /* WNDemoWordInfoViewController.xib */,
+			);
+			name = "Word Info";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* WNDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "WNDemoApp" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				EA4C9A42132F5B6600B76158 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WNDemoApp;
+			productName = WNDemoApp;
+			productReference = 1D6058910D05DD3D006BFB54 /* WNDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WNDemoApp" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* WNDemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4C9A18132F5B0400B76158 /* MainWindow.xib in Resources */,
+				EA4C9A1A132F5B0400B76158 /* WNDemoAllWordListsViewController.xib in Resources */,
+				EA4C9A1C132F5B0400B76158 /* WNDemoAppViewController.xib in Resources */,
+				EA4C9A1E132F5B0400B76158 /* WNDemoAuthViewController.xib in Resources */,
+				EA4C9A20132F5B0400B76158 /* WNDemoAutocompleteViewController.xib in Resources */,
+				EA4C9A22132F5B0400B76158 /* WNDemoCatalogViewController.xib in Resources */,
+				EA4C9A24132F5B0400B76158 /* WNDemoCreateListViewController.xib in Resources */,
+				EA4C9A26132F5B0400B76158 /* WNDemoDeleteWordListViewController.xib in Resources */,
+				EA4C9A28132F5B0400B76158 /* WNDemoModifyWordListViewController.xib in Resources */,
+				EA4C9A2A132F5B0400B76158 /* WNDemoRandomWordsViewController.xib in Resources */,
+				EA4C9A2C132F5B0400B76158 /* WNDemoWordInfoViewController.xib in Resources */,
+				EA4C9A2E132F5B0400B76158 /* WNDemoWordOfTheDayViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				EA4C9A19132F5B0400B76158 /* WNDemoAllWordListsViewController.m in Sources */,
+				EA4C9A1B132F5B0400B76158 /* WNDemoAppDelegate.m in Sources */,
+				EA4C9A1D132F5B0400B76158 /* WNDemoAuthViewController.m in Sources */,
+				EA4C9A1F132F5B0400B76158 /* WNDemoAutocompleteViewController.m in Sources */,
+				EA4C9A21132F5B0400B76158 /* WNDemoCatalogViewController.m in Sources */,
+				EA4C9A23132F5B0400B76158 /* WNDemoCreateListViewController.m in Sources */,
+				EA4C9A25132F5B0400B76158 /* WNDemoDeleteWordListViewController.m in Sources */,
+				EA4C9A27132F5B0400B76158 /* WNDemoModifyWordListViewController.m in Sources */,
+				EA4C9A29132F5B0400B76158 /* WNDemoRandomWordsViewController.m in Sources */,
+				EA4C9A2B132F5B0400B76158 /* WNDemoWordInfoViewController.m in Sources */,
+				EA4C9A2D132F5B0400B76158 /* WNDemoWordOfTheDayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Wordnik WordKit 1.0/iOS Framework\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WNDemoApp_Prefix.pch;
+				INFOPLIST_FILE = "WNDemoApp-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = WNDemoApp;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Wordnik WordKit 1.0/iOS Framework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WNDemoApp_Prefix.pch;
+				INFOPLIST_FILE = "WNDemoApp-Info.plist";
+				PRODUCT_NAME = WNDemoApp;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "WNDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WNDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
