@@ -19,3 +19,9 @@
 [obj release]; \
 obj = nil; \
 }
+
+@interface NSArray (WNAdditions)
+
+- (NSArray *)wn_map:(id (^)(id obj))block;
+
+@end
