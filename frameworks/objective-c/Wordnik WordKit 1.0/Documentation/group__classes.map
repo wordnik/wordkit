@@ -1,6 +1,0 @@
-<map id="structs" name="structs">
-<area shape="rect" id="node1" href="$group__classes__datasource.html" title="Provides a generic API for asynchronous loading of word data from arbitrary sources." alt="" coords="195,5,301,35"/>
-<area shape="rect" id="node2" href="$group__classes__data.html" title="Wordnik data classes." alt="" coords="201,59,295,88"/>
-<area shape="rect" id="node4" href="$group__classes__ios.html" title="Wordnik user interface components for iOS." alt="" coords="217,112,279,141"/>
-<area shape="rect" id="node5" href="$group__classes__client.html" title="Network Client" alt="" coords="187,165,309,195"/>
-</map>
