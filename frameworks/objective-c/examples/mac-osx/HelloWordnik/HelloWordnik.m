@@ -12,6 +12,22 @@ int main (int argc, const char * argv[]) {
 	
 	WNClientConfig *config = [WNClientConfig configWithAPIKey: API_KEY;
 	WNClient *client = [WNClient clientWithConfig: config];
+							  
+	/* Fetch API usage information (for testing purposes). */
+	[client requestAPIUsageStatusWithCompletionBlock: ^(WNClientAPIUsageStatus *status, NSError *error) {
+        if (error != nil) {
+            NSLog(@"Usage request failed: %@", error);
+            return;
+        }
+		
+        NSMutableString *output = [NSMutableString string];
+        [output appendFormat: @"Expires at: %@\n", status.expirationDate];
+        [output appendFormat: @"Reset at: %@\n", status.resetDate];
+        [output appendFormat: @"Total calls permitted: %ld\n", (long) status.totalPermittedRequestCount];
+        [output appendFormat: @"Total calls remaining: %ld\n", (long) status.remainingPermittedRequestCount];
+		
+        NSLog(@"API Usage:\n%@", output);
+    }];
 
 	//	Create definition request for 'Hello', using the American Heritage Dictionary.	
 	NSArray *elements = [NSArray arrayWithObjects:
