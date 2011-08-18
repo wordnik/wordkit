@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$protocol_w_n_word_element_request-p.html" title="A WNWordElementRequest specifies a specific word element to be fetched from a server or other data so..." alt="" coords="5,157,208,184"/>
+<area shape="rect" id="node3" href="$interface_w_n_audio_file_metadata_request.html" title="A word audio file metadata request." alt="" coords="269,5,483,32"/>
+<area shape="rect" id="node5" href="$interface_w_n_word_bigram_request.html" title="A word bigram phrase request." alt="" coords="289,56,463,83"/>
+<area shape="rect" id="node7" href="$interface_w_n_word_definition_request.html" title="A word definition request." alt="" coords="283,107,469,133"/>
+<area shape="rect" id="node9" href="$interface_w_n_word_example_request.html" title="A word example sentence request." alt="" coords="285,157,467,184"/>
+<area shape="rect" id="node11" href="$interface_w_n_word_related_words_request.html" title="A related word request." alt="" coords="269,208,483,235"/>
+<area shape="rect" id="node13" href="$interface_w_n_word_text_pronunciation_request.html" title="A word text pronunciation request." alt="" coords="256,259,496,285"/>
+<area shape="rect" id="node15" href="$interface_w_n_word_usage_frequency_request.html" title="A word usage frequency request." alt="" coords="259,309,493,336"/>
+</map>
