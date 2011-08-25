@@ -5,6 +5,9 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = EA40154D131B034C0071ED2F /* AudioFilePlayback */;
 		activeTarget = 8DD76F960486AA7600D96B5E /* AudioFilePlayback */;
+		addToTargets = (
+			8DD76F960486AA7600D96B5E /* AudioFilePlayback */,
+		);
 		codeSenseManager = EA40155A131B036B0071ED2F /* Code sense */;
 		executables = (
 			EA40154D131B034C0071ED2F /* AudioFilePlayback */,
@@ -32,12 +35,34 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 320540599;
-			PBXWorkspaceStateSaveDate = 320540599;
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					527,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 321865740;
+			PBXWorkspaceStateSaveDate = 321865740;
 		};
 		perUserProjectItems = {
 			EA22D105131B133400F1E5F6 /* PBXTextBookmark */ = EA22D105131B133400F1E5F6 /* PBXTextBookmark */;
-			EA401656131B0F9A0071ED2F /* PBXTextBookmark */ = EA401656131B0F9A0071ED2F /* PBXTextBookmark */;
+			EA9B2334132F488B00D75168 /* PBXTextBookmark */ = EA9B2334132F488B00D75168 /* PBXTextBookmark */;
 		};
 		sourceControlManager = EA401559131B036B0071ED2F /* Source Control */;
 		userBuildSettings = {
@@ -46,7 +71,7 @@
 	08FB7796FE84155DC02AAC07 /* AudioFilePlayback.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {745, 650}}";
-			sepNavSelRange = "{163, 0}";
+			sepNavSelRange = "{499, 0}";
 			sepNavVisRange = "{0, 993}";
 		};
 	};
@@ -110,14 +135,14 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	EA401656131B0F9A0071ED2F /* PBXTextBookmark */ = {
+	EA9B2334132F488B00D75168 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* AudioFilePlayback.m */;
-		name = "AudioFilePlayback.m: 36";
+		name = "AudioFilePlayback.m: 17";
 		rLen = 0;
-		rLoc = 1206;
+		rLoc = 499;
 		rType = 0;
-		vrLen = 1002;
-		vrLoc = 627;
+		vrLen = 993;
+		vrLoc = 0;
 	};
 }

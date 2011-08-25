@@ -1,9 +1,13 @@
 // !$*UTF8*$!
 {
 	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeArchitecturePreference = x86_64;
 		activeBuildConfigurationName = Debug;
 		activeExecutable = EA3FE2B0131ADC0200188533 /* MultiFetchExample */;
 		activeTarget = 8DD76F960486AA7600D96B5E /* MultiFetchExample */;
+		addToTargets = (
+			8DD76F960486AA7600D96B5E /* MultiFetchExample */,
+		);
 		codeSenseManager = EA3FE2B6131ADC2000188533 /* Code sense */;
 		executables = (
 			EA3FE2B0131ADC0200188533 /* MultiFetchExample */,
@@ -14,7 +18,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					577,
+					379,
 					20,
 					48,
 					43,
@@ -31,12 +35,34 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 320541332;
-			PBXWorkspaceStateSaveDate = 320541332;
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					339,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 321865208;
+			PBXWorkspaceStateSaveDate = 321865208;
 		};
 		perUserProjectItems = {
-			EA22D106131B133400F1E5F6 /* PBXTextBookmark */ = EA22D106131B133400F1E5F6 /* PBXTextBookmark */;
-			EA401570131B04A30071ED2F /* PBXTextBookmark */ = EA401570131B04A30071ED2F /* PBXTextBookmark */;
+			EA9B2149132F45F100D75168 /* PBXTextBookmark */ = EA9B2149132F45F100D75168 /* PBXTextBookmark */;
+			EA9B224B132F47F800D75168 /* PBXTextBookmark */ = EA9B224B132F47F800D75168 /* PBXTextBookmark */;
 		};
 		sourceControlManager = EA3FE2B5131ADC2000188533 /* Source Control */;
 		userBuildSettings = {
@@ -44,9 +70,10 @@
 	};
 	08FB7796FE84155DC02AAC07 /* MultiFetchExample.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {755, 624}}";
-			sepNavSelRange = "{63, 38}";
-			sepNavVisRange = "{0, 1288}";
+			sepNavIntBoundsRect = "{{0, 0}, {656, 624}}";
+			sepNavSelRange = "{135, 0}";
+			sepNavVisRange = "{0, 1225}";
+			sepNavWindowFrame = "{{15, 615}, {750, 558}}";
 		};
 	};
 	8DD76F960486AA7600D96B5E /* MultiFetchExample */ = {
@@ -54,16 +81,6 @@
 		executables = (
 			EA3FE2B0131ADC0200188533 /* MultiFetchExample */,
 		);
-	};
-	EA22D106131B133400F1E5F6 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* MultiFetchExample.m */;
-		name = "MultiFetchExample.m: 4";
-		rLen = 38;
-		rLoc = 63;
-		rType = 0;
-		vrLen = 1288;
-		vrLoc = 0;
 	};
 	EA3FE2B0131ADC0200188533 /* MultiFetchExample */ = {
 		isa = PBXExecutable;
@@ -81,6 +98,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -88,6 +106,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = MultiFetchExample;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
@@ -106,14 +126,24 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	EA401570131B04A30071ED2F /* PBXTextBookmark */ = {
+	EA9B2149132F45F100D75168 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* MultiFetchExample.m */;
-		name = "MultiFetchExample.m: 17";
-		rLen = 34;
-		rLoc = 711;
+		name = "MultiFetchExample.m: 12";
+		rLen = 0;
+		rLoc = 315;
 		rType = 0;
-		vrLen = 690;
+		vrLen = 1225;
+		vrLoc = 0;
+	};
+	EA9B224B132F47F800D75168 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* MultiFetchExample.m */;
+		name = "MultiFetchExample.m: 6";
+		rLen = 0;
+		rLoc = 135;
+		rType = 0;
+		vrLen = 1225;
 		vrLoc = 0;
 	};
 }
