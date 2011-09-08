@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$protocol_w_n_word_data_source_listener-p.html" title="Implement the WNWordDataSourceListener protocol to receive asynchronous results from WNWordDataSource..." alt="" coords="5,83,229,109"/>
-<area shape="rect" id="node4" href="$interface_w_n_composite_word_data_source.html" title="Composite data source looks up words from one or more data sources." alt="" coords="254,83,473,109"/>
-<area shape="rect" id="node6" href="$protocol_w_n_word_data_source-p.html" title="A generic asynchronous data source for performing wordnik lookups." alt="" coords="277,5,451,32"/>
-<area shape="rect" id="node8" href="$interface_w_n_request_ticket.html" title="A generic ticket for monitoring asynchronous requests." alt="" coords="498,83,629,109"/>
-</map>

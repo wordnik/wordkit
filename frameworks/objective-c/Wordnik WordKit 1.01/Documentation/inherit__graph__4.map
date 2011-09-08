@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1" href="$protocol_w_n_word_data_source-p.html" title="A generic asynchronous data source for performing wordnik lookups." alt="" coords="5,31,179,57"/>
-<area shape="rect" id="node3" href="$interface_w_n_composite_word_data_source.html" title="Composite data source looks up words from one or more data sources." alt="" coords="227,5,447,32"/>
-<area shape="rect" id="node5" href="$interface_w_n_word_network_data_source.html" title="An implementation of the WNWordDataSource protocol that provides support for fetching word data from ..." alt="" coords="236,56,439,83"/>
-</map>

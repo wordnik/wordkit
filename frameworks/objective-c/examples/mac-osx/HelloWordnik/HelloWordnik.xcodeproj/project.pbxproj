@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		8DD76F9A0486AA7600D96B5E /* HelloWordnik.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* HelloWordnik.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
-		EA9B213C132F454600D75168 /* Wordnik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9B213B132F454600D75168 /* Wordnik.framework */; };
-		EA9B2147132F45A000D75168 /* Wordnik.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = EA9B213B132F454600D75168 /* Wordnik.framework */; };
+		EADB0BE9141844EE0035FB64 /* Wordnik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EADB0BE8141844EE0035FB64 /* Wordnik.framework */; };
+		EADB0BEA141844F30035FB64 /* Wordnik.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = EADB0BE8141844EE0035FB64 /* Wordnik.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,7 +20,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				EA9B2147132F45A000D75168 /* Wordnik.framework in CopyFiles */,
+				EADB0BEA141844F30035FB64 /* Wordnik.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,7 +40,7 @@
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32A70AAB03705E1F00C91783 /* HelloWordnik_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWordnik_Prefix.pch; sourceTree = "<group>"; };
 		8DD76FA10486AA7600D96B5E /* HelloWordnik */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloWordnik; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA9B213B132F454600D75168 /* Wordnik.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Wordnik.framework; path = "/Users/tony/dev/projects/wordnik/wordkit/frameworks/objective-c/Wordnik WordKit 1.0/Mac OS X Framework/Wordnik.framework"; sourceTree = "<absolute>"; };
+		EADB0BE8141844EE0035FB64 /* Wordnik.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Wordnik.framework; path = "/Users/tony/dev/projects/wordnik/obj-c-sdk/build/Release-MacOSX/Wordnik.framework"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +49,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
-				EA9B213C132F454600D75168 /* Wordnik.framework in Frameworks */,
+				EADB0BE9141844EE0035FB64 /* Wordnik.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
-				EA9B213B132F454600D75168 /* Wordnik.framework */,
+				EADB0BE8141844EE0035FB64 /* Wordnik.framework */,
 			);
 			name = "External Frameworks and Libraries";
 			sourceTree = "<group>";
@@ -166,6 +166,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../Wordnik WordKit 1.0/Mac OS X Framework\"",
+					"\"$(SRCROOT)/../../../../../../obj-c-sdk/build/Release-MacOSX\"",
+					"\"$(SRCROOT)/../../../../..\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -185,18 +188,19 @@
 		1DEB927608733DD40010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
 					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../../Wordnik WordKit 1.0/Mac OS X Framework\"",
+					"\"$(SRCROOT)/../../../../../../obj-c-sdk/build/Release-MacOSX\"",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = HelloWordnik_Prefix.pch;
 				INSTALL_PATH = /usr/local/bin;
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = HelloWordnik;
 			};
 			name = Release;

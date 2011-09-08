@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1" href="$protocol_w_n_word_data_source_listener-p.html" title="Implement the WNWordDataSourceListener protocol to receive asynchronous results from WNWordDataSource..." alt="" coords="5,5,229,32"/>
-<area shape="rect" id="node3" href="$interface_w_n_composite_data_source_listener.html" title="Data source listener which will request word from multiple data sources and return result to another ..." alt="" coords="278,5,517,32"/>
-</map>

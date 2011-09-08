@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$interface_w_n_definition_view.html" title="A definition view provides a view&#45;based container for displaying a single Wordnik dictionary definiti..." alt="" coords="295,187,427,213"/>
+<area shape="rect" id="node4" href="$interface_w_n_word_object.html" title="A Wordnik word record." alt="" coords="147,96,263,123"/>
+<area shape="rect" id="node13" href="$interface_w_n_word_response.html" title="A word API response, including alternative spelling suggestions if the word could not be found..." alt="" coords="134,187,271,213"/>
+<area shape="rect" id="node6" href="$interface_w_n_usage_frequency_timeline.html" title="A collection of word usage frequencies, ordered by year." alt="" coords="5,5,208,32"/>
+<area shape="rect" id="node8" href="$interface_w_n_related_word_list.html" title="An ordered list of related words." alt="" coords="233,5,377,32"/>
+<area shape="rect" id="node10" href="$interface_w_n_definition_header_view.html" title="Displays a definition header containing &#39;quick&#45;link&#39; buttons for skipping to a specific secti..." alt="" coords="291,96,469,123"/>
+</map>

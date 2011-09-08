@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$protocol_w_n_word_data_source-p.html" title="A generic asynchronous data source for performing wordnik lookups." alt="" coords="5,96,179,123"/>
-<area shape="rect" id="node4" href="$interface_w_n_client.html" title="A client for the Wordnik Network API." alt="" coords="203,96,281,123"/>
-<area shape="rect" id="node6" href="$interface_w_n_request_ticket.html" title="A generic ticket for monitoring asynchronous requests." alt="" coords="177,5,308,32"/>
-</map>

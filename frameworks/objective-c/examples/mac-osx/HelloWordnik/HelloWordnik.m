@@ -2,7 +2,7 @@
 #import <Wordnik/Wordnik.h>
 
 /** Replace with your API key here */
-#define API_KEY @"YOUR_API_KEY"];
+#define API_KEY @"fe77d2c34a350d601e00e071b730220efe321328c2df0a430"];
 
 /**
  * Basic example to fetch definitions for a word
@@ -31,12 +31,12 @@ int main (int argc, const char * argv[]) {
 
 	//	Create definition request for 'Hello', using the American Heritage Dictionary.	
 	NSArray *elements = [NSArray arrayWithObjects:
-						 [WNWordDefinitionRequest requestWithDictionary: [WNDictionary ahdDictionary]],
+						 [WNWordDefinitionRequest requestWithDictionary: nil],
 						 nil];
 							  
 	//	Build a request
-	WNWordRequest *req = [WNWordRequest requestWithWord: @"Hello"
-								   requestCanonicalForm: YES
+	WNWordRequest *req = [WNWordRequest requestWithWord: @"hi"
+								   requestCanonicalForm: NO
 							 requestSpellingSuggestions: YES
 										elementRequests: elements];
 
@@ -51,7 +51,7 @@ int main (int argc, const char * argv[]) {
 		for(WNDefinitionList * defs in resp.wordObject.definitions){
 			NSLog(@"Definitions from the %@ dictionary",defs.sourceDictionary.name);
 			for(WNDefinition * def in defs.definitions){
-				NSLog(@"* %@\n",def.text);
+				NSLog(@"* %@, %@\n",def.text, def.dictionary);
 			}
 		}
 		exit(0);

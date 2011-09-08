@@ -1,27 +1,54 @@
 // !$*UTF8*$!
 {
 	08FB7793FE84155DC02AAC07 /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeArchitecturePreference = x86_64;
+		activeBuildConfigurationName = Release;
 		activeExecutable = EA3FE235131ACE4D00188533 /* HelloWordnik */;
 		activeTarget = 8DD76F960486AA7600D96B5E /* HelloWordnik */;
 		addToTargets = (
 			8DD76F960486AA7600D96B5E /* HelloWordnik */,
 		);
 		breakpoints = (
-			EA9B2407132F497200D75168 /* HelloWordnik.m:17 */,
+			EA9B2407132F497200D75168 /* HelloWordnik.m:61 */,
+			EADB0C6F14184B550035FB64 /* HelloWordnik.m:28 */,
+			EADB0C7D14184B840035FB64 /* HelloWordnik.m:18 */,
 		);
 		codeSenseManager = EA3FE23B131ACE6B00188533 /* Code sense */;
 		executables = (
 			EA3FE235131ACE4D00188533 /* HelloWordnik */,
 		);
 		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					22,
 					300,
-					238,
+					595,
 				);
 				PBXFileTableDataSourceColumnsKey = (
 					PBXExecutablesDataSource_ActiveFlagID,
@@ -34,7 +61,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					350,
+					717,
 					20,
 					48,
 					43,
@@ -72,7 +99,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					620,
+					677,
 					60,
 					20,
 					48,
@@ -89,14 +116,19 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 323122582;
-			PBXWorkspaceStateSaveDate = 323122582;
+			PBXPerProjectTemplateStateSaveDate = 337152424;
+			PBXWorkspaceStateSaveDate = 337152424;
 		};
 		perUserProjectItems = {
-			EA9B20D3132F413800D75168 /* PBXTextBookmark */ = EA9B20D3132F413800D75168 /* PBXTextBookmark */;
-			EA9B211A132F431100D75168 /* PBXTextBookmark */ = EA9B211A132F431100D75168 /* PBXTextBookmark */;
-			EAAE562E1330447C00630509 /* PBXTextBookmark */ = EAAE562E1330447C00630509 /* PBXTextBookmark */;
-			EAB7A3CA134275B200E00696 /* PBXTextBookmark */ = EAB7A3CA134275B200E00696 /* PBXTextBookmark */;
+			EA9B211A132F431100D75168 = EA9B211A132F431100D75168 /* PBXTextBookmark */;
+			EAB73BC4141889AA0022266B /* PBXTextBookmark */ = EAB73BC4141889AA0022266B /* PBXTextBookmark */;
+			EAB73C7114188AB70022266B /* PBXTextBookmark */ = EAB73C7114188AB70022266B /* PBXTextBookmark */;
+			EAB73C8914188AF10022266B /* PBXTextBookmark */ = EAB73C8914188AF10022266B /* PBXTextBookmark */;
+			EAB73CAD14188E940022266B /* PBXTextBookmark */ = EAB73CAD14188E940022266B /* PBXTextBookmark */;
+			EAB73CB714188EF10022266B /* PBXTextBookmark */ = EAB73CB714188EF10022266B /* PBXTextBookmark */;
+			EAB73D1C14188FFD0022266B /* PBXTextBookmark */ = EAB73D1C14188FFD0022266B /* PBXTextBookmark */;
+			EADB0C8114184BA20035FB64 = EADB0C8114184BA20035FB64 /* PBXTextBookmark */;
+			EADB0CC1141881670035FB64 = EADB0CC1141881670035FB64 /* PBXTextBookmark */;
 		};
 		sourceControlManager = EA3FE23A131ACE6B00188533 /* Source Control */;
 		userBuildSettings = {
@@ -104,9 +136,16 @@
 	};
 	08FB7796FE84155DC02AAC07 /* HelloWordnik.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {838, 780}}";
-			sepNavSelRange = "{135, 0}";
-			sepNavVisRange = "{136, 1452}";
+			sepNavIntBoundsRect = "{{0, 0}, {895, 832}}";
+			sepNavSelRange = "{1555, 0}";
+			sepNavVisRange = "{463, 1699}";
+		};
+	};
+	32A70AAB03705E1F00C91783 /* HelloWordnik_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1120, 197}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 166}";
 		};
 	};
 	8DD76F960486AA7600D96B5E /* HelloWordnik */ = {
@@ -122,7 +161,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 1;
+		breakpointsEnabled = 0;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -161,23 +200,6 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	EA9B1F89132F3C7200D75168 /* WNClient.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = WNClient.h;
-		path = "/Users/tony/dev/projects/wordnik/wordkit/frameworks/objective-c/Wordnik WordKit 1.0/Mac OS X Framework/Wordnik.framework/Versions/A/Headers/WNClient.h";
-		sourceTree = "<absolute>";
-	};
-	EA9B20D3132F413800D75168 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = EA9B1F89132F3C7200D75168 /* WNClient.h */;
-		name = "WNClient.h: 56";
-		rLen = 33;
-		rLoc = 1189;
-		rType = 0;
-		vrLen = 1004;
-		vrLoc = 806;
-	};
 	EA9B20D7132F413800D75168 /* Foundation.h */ = {
 		isa = PBXFileReference;
 		lastKnownFileType = sourcecode.c.h;
@@ -195,7 +217,85 @@
 		vrLen = 1188;
 		vrLoc = 0;
 	};
-	EA9B2407132F497200D75168 /* HelloWordnik.m:17 */ = {
+	EA9B2407132F497200D75168 /* HelloWordnik.m:61 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* HelloWordnik.m */;
+		functionName = "main()";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 61;
+		location = HelloWordnik;
+		modificationTime = 337152713.388977;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	EAB73BC4141889AA0022266B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* HelloWordnik.m */;
+		name = "HelloWordnik.m: 66";
+		rLen = 0;
+		rLoc = 2084;
+		rType = 0;
+		vrLen = 1446;
+		vrLoc = 0;
+	};
+	EAB73C7114188AB70022266B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* HelloWordnik.m */;
+		name = "HelloWordnik.m: 34";
+		rLen = 10;
+		rLoc = 1399;
+		rType = 0;
+		vrLen = 1783;
+		vrLoc = 0;
+	};
+	EAB73C8914188AF10022266B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* HelloWordnik.m */;
+		name = "HelloWordnik.m: 34";
+		rLen = 0;
+		rLoc = 1414;
+		rType = 0;
+		vrLen = 1549;
+		vrLoc = 663;
+	};
+	EAB73CAD14188E940022266B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* HelloWordnik.m */;
+		name = "HelloWordnik.m: 38";
+		rLen = 0;
+		rLoc = 1518;
+		rType = 0;
+		vrLen = 1511;
+		vrLoc = 718;
+	};
+	EAB73CB714188EF10022266B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* HelloWordnik.m */;
+		name = "HelloWordnik.m: 39";
+		rLen = 0;
+		rLoc = 1555;
+		rType = 0;
+		vrLen = 1699;
+		vrLoc = 463;
+	};
+	EAB73D1C14188FFD0022266B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* HelloWordnik.m */;
+		name = "HelloWordnik.m: 39";
+		rLen = 0;
+		rLoc = 1555;
+		rType = 0;
+		vrLen = 1699;
+		vrLoc = 463;
+	};
+	EADB0C6F14184B550035FB64 /* HelloWordnik.m:28 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -207,29 +307,48 @@
 		functionName = "main()";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 17;
-		modificationTime = 321869282.456409;
+		lineNumber = 28;
+		location = HelloWordnik;
+		modificationTime = 337152712.800624;
 		originalNumberOfMultipleMatches = 1;
-		state = 0;
+		state = 1;
 	};
-	EAAE562E1330447C00630509 /* PBXTextBookmark */ = {
+	EADB0C7D14184B840035FB64 /* HelloWordnik.m:18 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* HelloWordnik.m */;
+		functionName = "main()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 18;
+		location = HelloWordnik;
+		modificationTime = 337152712.819154;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	EADB0C8114184BA20035FB64 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* HelloWordnik.m */;
-		name = "HelloWordnik.m: 14";
-		rLen = 57;
-		rLoc = 369;
-		rType = 0;
-		vrLen = 1491;
-		vrLoc = 135;
-	};
-	EAB7A3CA134275B200E00696 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* HelloWordnik.m */;
-		name = "HelloWordnik.m: 6";
+		name = "HelloWordnik.m: 27";
 		rLen = 0;
-		rLoc = 135;
+		rLoc = 981;
 		rType = 0;
 		vrLen = 1452;
-		vrLoc = 136;
+		vrLoc = 226;
+	};
+	EADB0CC1141881670035FB64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* HelloWordnik.m */;
+		name = "HelloWordnik.m: 66";
+		rLen = 0;
+		rLoc = 2084;
+		rType = 0;
+		vrLen = 1409;
+		vrLoc = 0;
 	};
 }
