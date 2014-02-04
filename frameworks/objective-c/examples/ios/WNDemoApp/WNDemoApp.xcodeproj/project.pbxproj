@@ -97,7 +97,6 @@
 		EA4C9A16132F5B0400B76158 /* WNDemoWordOfTheDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNDemoWordOfTheDayViewController.m; sourceTree = SOURCE_ROOT; };
 		EA4C9A17132F5B0400B76158 /* WNDemoWordOfTheDayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WNDemoWordOfTheDayViewController.xib; path = ../WNDemoWordOfTheDayViewController.xib; sourceTree = "<group>"; };
 		EA4C9A2F132F5B2200B76158 /* WordnikUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WordnikUI.framework; path = "../../../Wordnik WordKit 1.0/iOS Framework/WordnikUI.framework"; sourceTree = SOURCE_ROOT; };
-		EA4C9A3F132F5B6500B76158 /* WNAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNAdditions.h; sourceTree = "<group>"; };
 		EA4C9A52132F5BE700B76158 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		EA4C9A54132F5BE700B76158 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		EA4C9A5A132F5C0E00B76158 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -196,7 +195,6 @@
 				EA7BD3CF132F5D70008611AE /* Word Info */,
 				EA7BD3CA132F5D02008611AE /* Word Lists */,
 				EA7BD3CC132F5D26008611AE /* Word Search */,
-				EA4C9A3F132F5B6500B76158 /* WNAdditions.h */,
 			);
 			name = "Main Catalog View";
 			sourceTree = "<group>";

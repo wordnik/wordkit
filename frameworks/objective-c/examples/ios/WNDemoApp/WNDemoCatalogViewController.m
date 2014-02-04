@@ -14,7 +14,7 @@
 #import "WNDemoDeleteWordListViewController.h"
 
 #import <WordnikUI/WNDefinitionViewController.h>
-#import "WNAdditions.h"
+#import <Wordnik/WNAdditions.h>
 
 typedef UIViewController *(^ActionBlock)();
 
